@@ -12,9 +12,9 @@ Minimum System Requirements :
 Tested On 
 =========
 
-Linux Ubuntu 16.04 x86 32Bit
-AMD A4 PRO-3340B with Radeon HD Graphics × 4 
-2 GB RAM
+* Linux Ubuntu 16.04 x86 32Bit
+* AMD A4 PRO-3340B with Radeon HD Graphics × 4 
+* 2 GB RAM
 
 ********************************************************************
 
