@@ -34,6 +34,7 @@ Directory Structure
 2. Run "install.sh" as super user (root)
 
 	$ chmod +x ./install.sh
+        
 	$ sudo ./install.sh
 
 Compilation & Installation may take 10 to 20 Minutes.. So go & have a coffee!
@@ -49,6 +50,7 @@ Compilation & Installation may take 10 to 20 Minutes.. So go & have a coffee!
 5. Lets Start! To Synthesize Your First Speech Output. Run the commands as shown below.
 
 	$ cd tamil
+        
 	$ ./scripts/complete "வணக்கம்" linux
 
  Viola! All Done, checkout your synthesized speech in wav/1.wav
@@ -100,18 +102,18 @@ If you got any errors, feel free to contact us on indianroboticsorganization@gma
 
 **************************************************************************************
 
-# Author : Vasanth Kumar (@jarvisvasu)
-# Founder Of Indian Robotics Organization
-# 
-# Contact : indianroboticsorganization@gmail.com
+### Author : Vasanth Kumar (@jarvisvasu)
+### Founder Of Indian Robotics Organization
+### 
+### Contact : indianroboticsorganization@gmail.com
+###
+### For more info : http://www.indianrobotics.org
+###
+### If You Like The Software, Hit A LIKE On Our Facebook Page
+###
+### Like Us On : http://facebook.com/indianrobotics/
 #
-# For more info : http://www.indianrobotics.org
-#
-# If You Like The Software, Hit A LIKE On Our Facebook Page
-#
-# Like Us On : http://facebook.com/indianrobotics/
-#
-# For any queries, feel free to contact us!
-# Please post your feedbacks on facebook, It really means so much for us!
+### For any queries, feel free to contact us!
+### Please post your feedbacks on facebook, It really means so much for us!
 
 
