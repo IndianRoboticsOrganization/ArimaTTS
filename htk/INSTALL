@@ -1,0 +1,35 @@
+Installation Instructions
+*************************
+
+1. This version is released as a patch code for HTK-3.4.1 and HDecode-3.4.1.
+   You can download them from
+
+   HTK-3.4.1:  http://htk.eng.cam.ac.uk/download.shtml
+   HDecode-3.4.1:  http://htk.eng.cam.ac.uk/extensions/index.shtml
+
+2. After downloading HTK-3.4.1.tar.gz and HDecode-3.4.1.tar.gz, expand them as
+   follows:
+
+   % tar -zxvf HTK-3.4.1.tar.gz
+   % tar -zxvf HDecode-3.4.1.tar.gz
+
+3. And then apply HTS-2.2_for_HTK-3.4.1.patch for HTK-3.4.1 as
+
+   % cd htk
+   % patch -p1 -d . < HTS-2.2_for_HTK-3.4.1.patch
+
+4. Run configure script with appropriate options.
+
+   % ./configure
+
+   For detail, please see.
+
+   % ./configure --help
+
+5. Run make.
+
+   % make
+
+6. Install library and binary.
+
+   % make install

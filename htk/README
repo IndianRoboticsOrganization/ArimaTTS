@@ -1,0 +1,144 @@
+===============================================================================
+            The HMM-based Speech Synthesis System (HTS) version 2.2
+                             release July 7, 2011
+
+
+The HMM-Based Speech Synthesis System (HTS) (http://hts.sp.nitech.ac.jp/) has
+been being developed by the HTS working group (see "Who we are" below) and 
+others (see "Acknowledgments" below). The training part of HTS has been
+implemented as a modified version of the Hidden Markov Model Toolkit (HTK)
+(http://htk.eng.cam.ac.uk/).
+
+*******************************************************************************
+                                    Copying
+*******************************************************************************
+
+The basic core system of HTS version 2.2 is released as a patch code to HTK
+version 3.4.1. The patch code is released under the New and Simplified BSD
+license (see http://www.opensource.org/). However, it should be noted that once
+you apply the patch to the HTK source code, you must obey the license of HTK.
+Using and distributing this software in the form of patch code to HTK and its
+documentation is free (without restriction including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of this work, and to permit persons to whom this work is furnished
+to do so) subject to the conditions in the following license:
+
+/* ----------------------------------------------------------------- */
+/*           The HMM-Based Speech Synthesis System (HTS)             */
+/*           developed by HTS Working Group                          */
+/*           http://hts.sp.nitech.ac.jp/                             */
+/* ----------------------------------------------------------------- */
+/*                                                                   */
+/*  Copyright (c) 2001-2011  Nagoya Institute of Technology          */
+/*                           Department of Computer Science          */
+/*                                                                   */
+/*                2001-2008  Tokyo Institute of Technology           */
+/*                           Interdisciplinary Graduate School of    */
+/*                           Science and Engineering                 */
+/*                                                                   */
+/* All rights reserved.                                              */
+/*                                                                   */
+/* Redistribution and use in source and binary forms, with or        */
+/* without modification, are permitted provided that the following   */
+/* conditions are met:                                               */
+/*                                                                   */
+/* - Redistributions of source code must retain the above copyright  */
+/*   notice, this list of conditions and the following disclaimer.   */
+/* - Redistributions in binary form must reproduce the above         */
+/*   copyright notice, this list of conditions and the following     */
+/*   disclaimer in the documentation and/or other materials provided */
+/*   with the distribution.                                          */
+/* - Neither the name of the HTS working group nor the names of its  */
+/*   contributors may be used to endorse or promote products derived */
+/*   from this software without specific prior written permission.   */
+/*                                                                   */
+/* THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND            */
+/* CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,       */
+/* INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF          */
+/* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE          */
+/* DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS */
+/* BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,          */
+/* EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED   */
+/* TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,     */
+/* DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON */
+/* ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,   */
+/* OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY    */
+/* OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE           */
+/* POSSIBILITY OF SUCH DAMAGE.                                       */
+/* ----------------------------------------------------------------- */
+
+Although the patch code is free, we still offer no warranties and no
+maintenance. We will continue to endeavor to fix bugs and answer queries when
+can, but are not in a position to guarantee it. We will consider consultancy if
+desired, please contacts us for details.
+
+If you are using HTS in commercial environment, even though no license
+is required, we would be grateful if you let us know as it helps justify
+ourselves to our various sponsors. We also strongly encourage you to
+
+ * refer to the use of HTS in any publications that use HTS
+ * report bugs, where possible with bug fixes, that are found
+
+See "COPYING" in the same directory for details.
+
+*******************************************************************************
+                                 Installation
+*******************************************************************************
+
+See "INSTALL" in the same directory for details.
+
+*******************************************************************************
+                                 Documentation
+*******************************************************************************
+
+Reference manual of HTS is available at
+
+http://hts.sp.nitech.ac.jp/
+
+*******************************************************************************
+                               Acknowledgements
+*******************************************************************************
+
+Keiichi Tokuda
+Keiichiro Oura
+Heiga Zen
+Junichi Yamagishi
+Takayoshi Yoshimura
+Masatsune Tamura
+Shinji Sako
+Noboru Miyazaki
+Tetsuya Yamada
+Takashi Masuko
+Takao Kobayashi
+Tadashi Kitamura
+Satoshi Imai
+Alan Black
+Takashi Nose
+Tomoki Toda
+Kei Hashimoto
+Sayaka Shiota
+
+*******************************************************************************
+                                  Who we are
+*******************************************************************************
+
+The HTS working group is a voluntary group for developing the HMM-Based Speech
+Synthesis System. Current members are
+
+ Keiichi Tokuda      http://www.sp.nitech.ac.jp/~tokuda/
+ (Produce and Design)
+ Keiichiro Oura      http://www.sp.nitech.ac.jp/~uratec/
+ (Design and Development, Main Maintainer)
+ Kei Hashimoto       http://www.sp.nitech.ac.jp/~bonanza/
+ Sayaka Shiota       http://www.sp.nitech.ac.jp/~sayaka/
+ Heiga Zen
+ Junichi Yamagishi   http://homepages.inf.ed.ac.uk/jyamagis/
+ Tomoki Toda         http://spalab.naist.jp/~tomoki/index_e.html
+ Takashi Nose
+ Shinji Sako         http://www.mmsp.nitech.ac.jp/~sako/
+ Alan W. Black       http://www.cs.cmu.edu/~awb/
+
+and the members are dynamically changing. The current formal contact address of
+HTS working group and a mailing list for HTS users can be found at
+http://hts.sp.nitech.ac.jp/
+===============================================================================

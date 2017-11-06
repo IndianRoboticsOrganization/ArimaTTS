@@ -1,0 +1,1 @@
+tcsh ./scripts/word_pronunciation lists/phoneset_all lists/phoneset_uyir lists/phoneset_mei lists/phoneset_uyirmei ஆகும் .

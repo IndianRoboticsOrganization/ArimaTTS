@@ -1,0 +1,2829 @@
+2011-06-19 20:53  uratec
+
+	* HTKTools/HMgeTool.c: update
+
+2011-06-16 14:18  uratec
+
+	* HTKTools/HHEd.c: Modify a comment.
+
+2011-06-16 14:13  bonanza
+
+	* HTKLib/HModel.h, HTKTools/HHEd.c: bug fix
+
+2011-06-16 14:10  bonanza
+
+	* HTKLib/HModel.h: Modify for for CalKLDist
+
+2011-06-16 14:07  bonanza
+
+	* HTKLib/HModel.c, HTKTools/HHEd.c: Modify CalcKLDist
+
+2011-06-16 13:27  uratec
+
+	* HTKLib/HGen.c, HTKLib/HMTrain.c, HTKTools/HMGenS.c,
+	  HTKTools/HMgeTool.c, HTKTools/HSMMAlign.c: Update version number.
+
+2011-06-16 13:18  uratec
+
+	* HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HAudio.c, HTKLib/HAudio.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HFBLat.c,
+	  HTKLib/HFBLat.h, HTKLib/HGraf.c, HTKLib/HGraf.h,
+	  HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c, HTKLib/HLM.c,
+	  HTKLib/HLM.h, HTKLib/HLabel.c, HTKLib/HLabel.h, HTKLib/HLat.c,
+	  HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h, HTKLib/HMath.c,
+	  HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h, HTKLib/HModel.h,
+	  HTKLib/HNet.c, HTKLib/HNet.h, HTKLib/HParm.c, HTKLib/HParm.h,
+	  HTKLib/HRec.c, HTKLib/HRec.h, HTKLib/HShell.c, HTKLib/HShell.h,
+	  HTKLib/HSigP.c, HTKLib/HSigP.h, HTKLib/HTrain.c, HTKLib/HTrain.h,
+	  HTKLib/HUtil.c, HTKLib/HUtil.h, HTKLib/HVQ.c, HTKLib/HVQ.h,
+	  HTKLib/HWave.c, HTKLib/HWave.h, HTKLib/esignal.h, HTKLib/lbfgs.h,
+	  HTKTools/HBuild.c, HTKTools/HCompV.c, HTKTools/HCopy.c,
+	  HTKTools/HDMan.c, HTKTools/HERest.c, HTKTools/HHEd.c,
+	  HTKTools/HInit.c, HTKTools/HLEd.c, HTKTools/HLRescore.c,
+	  HTKTools/HLStats.c, HTKTools/HList.c, HTKTools/HMMIRest.c,
+	  HTKTools/HParse.c, HTKTools/HQuant.c, HTKTools/HRest.c,
+	  HTKTools/HResults.c, HTKTools/HSGen.c, HTKTools/HSLab.c,
+	  HTKTools/HSmooth.c, HTKTools/HVite.c: modify footer format.
+
+2011-06-16 13:15  uratec
+
+	* configure, configure.ac, HTKLib/HAdapt.c, HTKLib/HAdapt.h,
+	  HTKLib/HGen.c, HTKLib/HGen.h, HTKLib/HMTrain.c, HTKLib/HMTrain.h,
+	  HTKLib/HModel.c, HTKLib/Makefile.in, HTKTools/HMGenS.c,
+	  HTKTools/HMgeTool.c, HTKTools/Makefile.in: Add prototype of MGE
+	  training tool.
+
+2011-06-16 13:13  uratec
+
+	* HTKTools/HSMMAlign.c: Add function to output stats for HSMMAlign.
+
+2011-03-02 17:36  uratec
+
+	* .project, HTKLib/HFB.c, HTKLib/HFB.h, HTKTools/HSMMAlign.c:
+	  Support input xform of HSMMAlign.
+
+2011-02-10 17:23  uratec
+
+	* HTKLVRec/HDecode.c, HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c,
+	  HTKLVRec/HLVModel.c, HTKLVRec/HLVRec-propagate.c,
+	  HTKLVRec/HLVRec.c, HTKLib/HAdapt.c, HTKLib/HArc.c,
+	  HTKLib/HAudio.c, HTKLib/HDict.c, HTKLib/HExactMPE.c,
+	  HTKLib/HFB.c, HTKLib/HFBLat.c, HTKLib/HGen.c, HTKLib/HGraf.c,
+	  HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c, HTKLib/HLM.c,
+	  HTKLib/HLabel.c, HTKLib/HLat.c, HTKLib/HMap.c, HTKLib/HMath.c,
+	  HTKLib/HMem.c, HTKLib/HModel.c, HTKLib/HNet.c, HTKLib/HParm.c,
+	  HTKLib/HRec.c, HTKLib/HShell.c, HTKLib/HSigP.c, HTKLib/HTrain.c,
+	  HTKLib/HUtil.c, HTKLib/HVQ.c, HTKLib/HWave.c, HTKTools/HBuild.c,
+	  HTKTools/HCompV.c, HTKTools/HCopy.c, HTKTools/HDMan.c,
+	  HTKTools/HERest.c, HTKTools/HHEd.c, HTKTools/HInit.c,
+	  HTKTools/HLEd.c, HTKTools/HLRescore.c, HTKTools/HLStats.c,
+	  HTKTools/HList.c, HTKTools/HMGenS.c, HTKTools/HMMIRest.c,
+	  HTKTools/HParse.c, HTKTools/HQuant.c, HTKTools/HRest.c,
+	  HTKTools/HResults.c, HTKTools/HSGen.c, HTKTools/HSLab.c,
+	  HTKTools/HSmooth.c, HTKTools/HVite.c: update all years in
+	  copyright.  add step-by-step beam search in HSMMAlign.
+
+2011-02-10 17:19  uratec
+
+	* Makefile.in, configure, configure.ac, HTKLVRec/HLVRec-LM.c,
+	  HTKLVRec/HLVRec-outP.c, HTKLVRec/HLVRec-traceback.c,
+	  HTKLib/HAdapt.h, HTKLib/HArc.h, HTKLib/HAudio.h, HTKLib/HDict.h,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.h, HTKLib/HFBLat.h, HTKLib/HGen.h,
+	  HTKLib/HGraf.h, HTKLib/HLM.h, HTKLib/HLabel.h, HTKLib/HLat.h,
+	  HTKLib/HMap.h, HTKLib/HMath.h, HTKLib/HMem.h, HTKLib/HModel.h,
+	  HTKLib/HNet.h, HTKLib/HParm.h, HTKLib/HRec.h, HTKLib/HShell.h,
+	  HTKLib/HSigP.h, HTKLib/HTrain.h, HTKLib/HUtil.h, HTKLib/HVQ.h,
+	  HTKLib/HWave.h, HTKLib/Makefile.in, HTKLib/lbfgs.h,
+	  HTKTools/HSMMAlign.c, HTKTools/Makefile.in: update
+
+2010-12-21 15:03  bonanza
+
+	* HTKLib/HAdapt.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: Fix bugs that
+	  estimation of output xform can become extremely slow, when we
+	  cascade transforms.
+
+2010-12-07 08:10  bonanza
+
+	* HTKLib/HModel.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: Fix bugs in
+	  GetRegTree
+
+2010-12-07 08:04  bonanza
+
+	* HTKLib/HModel.c: ApplyDAEM: fix bug about LZERO
+
+2010-12-02 14:23  uratec
+
+	* HTKTools/HHEd.c: Add PX help message.
+
+2010-12-02 13:58  uratec
+
+	* HTKTools/: HHEd.c, HSMMAlign.c: Remove warning given by Intel
+	  compiler: suggested by Heiga Zen of Toshiba Research Europe Ltd.
+	  Cambridge Research Laboratory.
+
+2010-11-24 18:37  uratec
+
+	* configure, HTKTools/HHEd.c: Modify help message of HHEd.
+
+2010-11-24 18:07  bonanza
+
+	* HTKLib/HFB.c: Modified for DAEM transP
+
+2010-11-24 17:21  bonanza
+
+	* HTKTools/HHEd.c: Modified Ref*** functions
+
+2010-11-24 09:23  uratec
+
+	* configure.ac, HTKLib/HFB.c, HTKLib/HFBLat.h, HTKLib/HModel.c,
+	  HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HParm.c, HTKTools/HHEd.c:
+	  Fix many bugs and typos: suggested by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Labratory.
+
+2010-11-17 18:39  bonanza
+
+	* HTKTools/HHEd.c: bug fix about context-clustering using reference
+	  tree
+
+2010-11-16 13:10  uratec
+
+	* HTKTools/HHEd.c: Add command summary for SM and AX.
+
+2010-11-15 13:49  uratec
+
+	* HTKTools/HSMMAlign.c: Add pruning option to HSMMAlign.
+
+2010-11-09 23:58  uratec
+
+	* HTKTools/HERest.c: Change range of beta for DAEM.
+
+2010-11-09 23:34  bonanza
+
+	* HTKTools/HHEd.c: add useage comment for useRefTree
+
+2010-11-09 23:31  bonanza
+
+	* HTKLib/HFB.c, HTKTools/HERest.c: bug fix about DAEM training
+
+2010-11-09 14:36  uratec
+
+	* HTKTools/HHEd.c: Remove warning given by compiler.
+
+2010-11-09 14:18  bonanza
+
+	* HTKLib/HFB.c, HTKLib/HModel.c, HTKLib/HModel.h,
+	  HTKTools/HERest.c: commit DAEM training
+
+2010-11-09 13:33  bonanza
+
+	* HTKLib/HUtil.c, HTKTools/HHEd.c: TB command using reference trees
+
+2010-11-09 10:01  uratec
+
+	* HTKTools/HHEd.c: Add number of command in HHEd.
+
+2010-11-09 08:22  uratec
+
+	* HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HModel.c, HTKLib/HModel.h,
+	  HTKLib/HUtil.c, HTKTools/HERest.c, HTKTools/HHEd.c: Re-commit
+	  state mapping based CLSA func.
+
+2010-11-08 20:26  bonanza
+
+	* HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HModel.c, HTKLib/HModel.h,
+	  HTKTools/HERest.c: commit DAEM training
+
+2010-11-08 20:24  bonanza
+
+	* HTKLib/HUtil.c, HTKTools/HHEd.c: commit TreeBuildCommand using
+	  loaded trees
+
+2010-11-08 11:05  uratec
+
+	* HTKTools/HHEd.c: Add warning comments.
+
+2010-11-08 09:36  uratec
+
+	* HTKLib/HAdapt.c, HTKLib/HAdapt.h, HTKTools/HHEd.c: Add
+	  state-mapping adaptation to ApplyXFormCommand in HHEd.
+
+2010-11-05 13:13  uratec
+
+	* HTKLib/HUtil.c, HTKLib/HUtil.h, HTKTools/HHEd.c: Add state
+	  mapping command (SM).
+
+2010-11-05 09:35  uratec
+
+	* configure, configure.ac, HTKLib/HGen.h, HTKLib/lbfgs.h: Update
+	  version to 2.2 alpha.
+
+2010-11-05 09:25  uratec
+
+	* HTKTools/: .cvsignore, HFst.c, HSMMAlign.c, Makefile.in: Add
+	  HSMMALign command.  Remove HFst command.
+
+2010-07-09 16:37  uratec
+
+	* HTKTools/: HFst.c, HMGenS.c: Add transform to HFst command.
+
+2010-07-09 16:34  uratec
+
+	* HTKLib/HAdapt.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Labo ratory: Mean of
+	  MInfo should be SVector.
+
+2010-06-09 15:15  uratec
+
+	* HTKTools/HMGenS.c: Fix a tiny typo.
+
+2010-05-10 20:28  uratec
+
+	* HTKLib/HAdapt.c: Fix bugs suggested by Wenlin Zhang: in
+	  UpdateSemiTiedXForm and EstMLLRCovXForm, the matrix was updated.
+	  but the determinant of A was not updated.
+
+2010-05-10 20:10  uratec
+
+	* HTKLib/HAdapt.c, HTKTools/HHEd.c: Merge patch code by Heiga Zen
+	  of Toshiba Research Europe Ltd. Cambridge Research Laboratory:
+	  Fix small bugs and typos.
+
+2010-04-21 20:54  uratec
+
+	* HTKLib/HGen.c: Fix a bug suggested by Florian Krebs:
+	  Context-dependent and state alignment flag can not be used in
+	  parameter generation step.
+
+2010-04-08 13:50  uratec
+
+	* Makefile.in, configure, configure.ac, HTKLVRec/HDecode.c,
+	  HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c, HTKLVRec/HLVModel.c,
+	  HTKLVRec/HLVNet.c, HTKLVRec/HLVRec-LM.c, HTKLVRec/HLVRec-outP.c,
+	  HTKLVRec/HLVRec-propagate.c, HTKLVRec/HLVRec-traceback.c,
+	  HTKLVRec/HLVRec.c, HTKLib/HAdapt.c, HTKLib/HAdapt.h,
+	  HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HAudio.c, HTKLib/HAudio.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HFBLat.c,
+	  HTKLib/HFBLat.h, HTKLib/HGen.c, HTKLib/HGen.h, HTKLib/HGraf.c,
+	  HTKLib/HGraf.h, HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c,
+	  HTKLib/HLM.c, HTKLib/HLM.h, HTKLib/HLabel.c, HTKLib/HLabel.h,
+	  HTKLib/HLat.c, HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h,
+	  HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h,
+	  HTKLib/HModel.c, HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HNet.h,
+	  HTKLib/HParm.c, HTKLib/HParm.h, HTKLib/HRec.c, HTKLib/HRec.h,
+	  HTKLib/HShell.c, HTKLib/HShell.h, HTKLib/HSigP.c, HTKLib/HSigP.h,
+	  HTKLib/HTrain.c, HTKLib/HTrain.h, HTKLib/HUtil.c, HTKLib/HUtil.h,
+	  HTKLib/HVQ.c, HTKLib/HVQ.h, HTKLib/HWave.c, HTKLib/HWave.h,
+	  HTKLib/Makefile.in, HTKLib/lbfgs.h, HTKTools/HBuild.c,
+	  HTKTools/HCompV.c, HTKTools/HCopy.c, HTKTools/HDMan.c,
+	  HTKTools/HERest.c, HTKTools/HFst.c, HTKTools/HHEd.c,
+	  HTKTools/HInit.c, HTKTools/HLEd.c, HTKTools/HLRescore.c,
+	  HTKTools/HLStats.c, HTKTools/HList.c, HTKTools/HMGenS.c,
+	  HTKTools/HMMIRest.c, HTKTools/HParse.c, HTKTools/HQuant.c,
+	  HTKTools/HRest.c, HTKTools/HResults.c, HTKTools/HSGen.c,
+	  HTKTools/HSLab.c, HTKTools/HSmooth.c, HTKTools/HVite.c,
+	  HTKTools/Makefile.in: Update all description from beta to version
+	  2.1.1
+
+2010-04-08 12:50  uratec
+
+	* HTKLib/HUtil.c: Fix a serious bug in HTK and HTS: Mixture weight
+	  calculation for HERest and HMMIRest.
+
+2010-03-08 10:31  uratec
+
+	* HTKTools/HHEd.c: Marge patch code by Junichi Yamagishi: Fix
+	  vector size in SW command.
+
+2010-03-01 18:07  uratec
+
+	* HTKLib/HGen.c: Add GV flag for each PdfStream.
+
+2010-02-19 03:55  uratec
+
+	* HTKTools/HHEd.c: Add error flag for wrong mixture weight for MU
+	  command in HHEd.c.
+
+2010-02-07 22:08  uratec
+
+	* HTKTools/HFst.c: Bug fix suggested by Junichi Yamagishi: HFst for
+	  tied context list.
+
+2010-02-01 20:51  uratec
+
+	* HTKTools/HHEd.c: Test commit mail.
+
+2010-02-01 20:41  uratec
+
+	* HTKTools/HFst.c: Test commit mail.
+
+2010-01-26 10:29  uratec
+
+	* HTKTools/HHEd.c: Change *.pdf file format in CM command
+
+2010-01-22 01:29  uratec
+
+	* HTKLib/HAdapt.c, HTKTools/HFst.c, HTKTools/HMGenS.c: Add pruning
+	  using time information in label for HFst.c.  Fix bug that WFST of
+	  state duration don't allow 1 frame.  Fix version in HMGen.c and
+	  HAdapt.c.
+
+2010-01-20 19:35  uratec
+
+	* configure, configure.ac: Marge patch code by Junichi Yamagishi:
+	  Fix warning for compiling HMGenS with Mac OS (Leopard).
+
+2010-01-12 17:30  uratec
+
+	* HTKLib/HTrain.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: A bug ignores
+	  state occupancy counts which are loaded by the previous
+	  LoadStateOcc() calls.
+
+2009-12-20 21:36  uratec
+
+	* HTKLib/HAdapt.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: HERest
+	  difference between HTK and HTS somtimes warnings like "WARNING
+	  [-1]	WARNING: accumulates incorrect (-36690.361990 < 0) -
+	  resetting in".
+
+2009-12-18 16:46  uratec
+
+	* HTKLib/HFB.c: Merge patch code by Heiga Zen of Toshiba Research
+	  Europe Ltd. Cambridge Research Laboratory: 1 stream without
+	  stream weight cause segmentation fault.
+
+2009-12-17 15:02  uratec
+
+	* HTKLib/HFB.c: Merge patch code by Heiga Zen of Toshiba Research
+	  Europe Ltd. Cambridge Research Laboratory: Stream weights for
+	  state duration probability distribution.
+
+2009-12-17 14:37  uratec
+
+	* HTKLib/HFB.c: Merge patch code by Heiga Zen of Toshiba Research
+	  Europe Ltd. Cambridge Research Laboratory: A bug in computation
+	  of mixture component-level posterior probabilities.
+
+2009-12-16 14:30  uratec
+
+	* HTKLib/HAdapt.c: Merge patch code Junichi Yamagishi: Bug fix
+	  reported by John: Different behavior between HTK CMLLR and HTS
+	  CMLLR.
+
+2009-12-16 14:29  uratec
+
+	* HTKLib/HFB.c: Merge patch code by Heiga Zen of Toshiba Research
+	  Europe Ltd. Cambridge Research Laboratory: Bug reported by Hui:
+	  Stream weights make occpancies strange.
+
+2009-12-15 18:19  uratec
+
+	* configure, configure.ac, HTKBook/log, HTKBook/HTKRef/Cluster.aux,
+	  HTKBook/HTKRef/HBuild.aux, HTKBook/HTKRef/HCompV.aux,
+	  HTKBook/HTKRef/HCopy.aux, HTKBook/HTKRef/HDMan.aux,
+	  HTKBook/HTKRef/HDecode.aux, HTKBook/HTKRef/HERest.aux,
+	  HTKBook/HTKRef/HHEd.aux, HTKBook/HTKRef/HInit.aux,
+	  HTKBook/HTKRef/HLEd.aux, HTKBook/HTKRef/HLMCopy.aux,
+	  HTKBook/HTKRef/HLRescore.aux, HTKBook/HTKRef/HLStats.aux,
+	  HTKBook/HTKRef/HList.aux, HTKBook/HTKRef/HMMIRest.aux,
+	  HTKBook/HTKRef/HParse.aux, HTKBook/HTKRef/HQuant.aux,
+	  HTKBook/HTKRef/HRest.aux, HTKBook/HTKRef/HResults.aux,
+	  HTKBook/HTKRef/HSGen.aux, HTKBook/HTKRef/HSLab.aux,
+	  HTKBook/HTKRef/HSmooth.aux, HTKBook/HTKRef/HVite.aux,
+	  HTKBook/HTKRef/LAdapt.aux, HTKBook/HTKRef/LBuild.aux,
+	  HTKBook/HTKRef/LFoF.aux, HTKBook/HTKRef/LGCopy.aux,
+	  HTKBook/HTKRef/LGList.aux, HTKBook/HTKRef/LGPrep.aux,
+	  HTKBook/HTKRef/LLink.aux, HTKBook/HTKRef/LMerge.aux,
+	  HTKBook/HTKRef/LNewMap.aux, HTKBook/HTKRef/LNorm.aux,
+	  HTKBook/HTKRef/LPlex.aux, HTKBook/HTKRef/LSubset.aux,
+	  HTKBook/HTKRef/tools.aux: add *.aux files for HTK-3.4.1.  remove
+	  HTKBook/log for HTK-3.4.1.
+
+2009-12-15 12:58  uratec
+
+	* HTKLib/HFB.c: merge patch code by Heiga Zen of Toshiba Research
+	  Europe Ltd. Cambridge Research Laboratory: a bug fix of
+	  calculation of output probability for mix in UpMixParms() and
+	  Setotprob().
+
+2009-12-15 10:57  uratec
+
+	* HTKLib/: HAdapt.c, HAdapt.h: Merge patch code by Heiga Zen of
+	  Toshiba Research Europe Ltd. Cambridge Research Laboratory: use
+	  double precision instead of single one to accumulate statistics
+	  while estimating adaptation transforms.
+
+2009-12-15 10:42  uratec
+
+	* HTKTools/HHEd.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: support
+	  multi-stream and/or MSD HMMs.
+
+2009-12-15 10:17  uratec
+
+	* HTKLib/HAdapt.c, HTKLib/HGen.c, HTKLib/HLabel.c, HTKLib/HShell.h,
+	  HTKTools/HERest.c, HTKTools/HHEd.c: change some constant.  add
+	  'init gv weight' function for parameter generation.
+
+2009-12-14 17:46  uratec
+
+	* HTKLVRec/HLVRec-GC.c: a small bug fix of HDecode reported by
+	  Reima Karhila
+
+2009-12-14 17:12  uratec
+
+	* HTKLib/: HAdapt.h, HGen.h, HRec.c, lbfgs.h: merge patch code by
+	  Junichi Yamagishi: HVite with transform does not support
+	  stream-shared model
+
+2009-12-14 14:25  uratec
+
+	* HTKTools/HHEd.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: a further
+	  modification to reduce the computational cost of decision
+	  tree-based context-clustering.
+
+2009-12-14 13:11  uratec
+
+	* HTKTools/HInit.c: Merge patch code by Heiga Zen of Toshiba
+	  Research Europe Ltd. Cambridge Research Laboratory: mixture
+	  weights were not floored at the first stage of HInit.
+
+2009-12-14 12:51  uratec
+
+	* HTKLib/HUtil.c: A bug suggested by Sayaka Siota: MixUp command
+	  does not work correctly.
+
+2009-12-14 12:38  uratec
+
+	* HTKTools/HHEd.c: A bug: suggested by Hui LIANG: calculation of
+	  score2 is missing from RC command in HHEd.
+
+2009-12-11 19:00  uratec
+
+	* .cvsignore, AUTHORS, Makefile.in, README, configure,
+	  configure.ac, HLMLib/.directory, HLMLib/LCMap.c, HLMLib/LCMap.h,
+	  HLMLib/LGBase.c, HLMLib/LGBase.h, HLMLib/LModel.c,
+	  HLMLib/LModel.h, HLMLib/LPCalc.c, HLMLib/LPCalc.h,
+	  HLMLib/LPMerge.c, HLMLib/LPMerge.h, HLMLib/LUtil.c,
+	  HLMLib/LUtil.h, HLMLib/LWMap.c, HLMLib/LWMap.h,
+	  HLMLib/Makefile.in, HLMTools/.directory, HLMTools/Cluster.c,
+	  HLMTools/HLMCopy.c, HLMTools/LAdapt.c, HLMTools/LBuild.c,
+	  HLMTools/LFoF.c, HLMTools/LGCopy.c, HLMTools/LGList.c,
+	  HLMTools/LGPrep.c, HLMTools/LLink.c, HLMTools/LMerge.c,
+	  HLMTools/LNewMap.c, HLMTools/LNorm.c, HLMTools/LPlex.c,
+	  HLMTools/LSubset.c, HTKBook/ChangeLog, HTKBook/HTK.tex,
+	  HTKBook/Makefile, HTKBook/adapt.tex, HTKBook/config.tex,
+	  HTKBook/decode.tex, HTKBook/discmods.tex, HTKBook/errors.tex,
+	  HTKBook/exampsys.tex, HTKBook/fundaments.tex,
+	  HTKBook/hlmfiles.tex, HTKBook/hlmfund.tex,
+	  HTKBook/hlmtutorial.tex, HTKBook/htkbook-pdf.tex,
+	  HTKBook/htkbook.tex, HTKBook/htkoview.tex, HTKBook/labels.tex,
+	  HTKBook/models.tex, HTKBook/netdict.tex, HTKBook/openviron.tex,
+	  HTKBook/refine.tex, HTKBook/speechio.tex, HTKBook/train.tex,
+	  HTKBook/HTKFigs/discriminative.eps,
+	  HTKBook/HTKFigs/discriminative.fig,
+	  HTKBook/HTKFigs/hmmirest_par.eps,
+	  HTKBook/HTKFigs/hmmirest_par.fig, HTKBook/HTKRef/HDecode.tex,
+	  HTKBook/HTKRef/HERest.tex, HTKBook/HTKRef/HHEd.tex,
+	  HTKBook/HTKRef/HLStats.tex, HTKBook/HTKRef/HMMIRest.tex,
+	  HTKBook/HTKRef/HParse.tex, HTKBook/HTKRef/HQuant.tex,
+	  HTKBook/HTKRef/HSLab.tex, HTKBook/HTKRef/HSmooth.tex,
+	  HTKBook/HTKRef/LLink.tex, HTKBook/HTKRef/LNewMap.tex,
+	  HTKBook/HTKRef/tools.tex, HTKLVRec/HDecode.c,
+	  HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c, HTKLVRec/HLVLM.h,
+	  HTKLVRec/HLVModel.c, HTKLVRec/HLVNet.c, HTKLVRec/HLVRec-GC.c,
+	  HTKLVRec/HLVRec-LM.c, HTKLVRec/HLVRec-outP.c,
+	  HTKLVRec/HLVRec-propagate.c, HTKLVRec/HLVRec-traceback.c,
+	  HTKLVRec/HLVRec.c, HTKLVRec/HLVRec.h, HTKLVRec/Makefile.in,
+	  HTKLVRec/README, HTKLVRec/config.h, HTKLVRec/htk_hdecode_nt.mkf,
+	  HTKLib/.directory, HTKLib/ChangeLog, HTKLib/HAdapt.c,
+	  HTKLib/HAdapt.h, HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HAudio.c,
+	  HTKLib/HAudio.h, HTKLib/HDict.c, HTKLib/HDict.h,
+	  HTKLib/HExactMPE.c, HTKLib/HExactMPE.h, HTKLib/HFB.c,
+	  HTKLib/HFB.h, HTKLib/HFBLat.c, HTKLib/HFBLat.h, HTKLib/HGen.c,
+	  HTKLib/HGen.h, HTKLib/HGraf.c, HTKLib/HGraf.h,
+	  HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c, HTKLib/HLM.c,
+	  HTKLib/HLM.h, HTKLib/HLabel.c, HTKLib/HLabel.h, HTKLib/HLat.c,
+	  HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h, HTKLib/HMath.c,
+	  HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h, HTKLib/HModel.c,
+	  HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HNet.h, HTKLib/HParm.c,
+	  HTKLib/HParm.h, HTKLib/HRec.c, HTKLib/HRec.h, HTKLib/HShell.c,
+	  HTKLib/HShell.h, HTKLib/HSigP.c, HTKLib/HSigP.h, HTKLib/HTrain.c,
+	  HTKLib/HTrain.h, HTKLib/HUtil.c, HTKLib/HUtil.h, HTKLib/HVQ.c,
+	  HTKLib/HVQ.h, HTKLib/HWave.c, HTKLib/HWave.h, HTKLib/Makefile.in,
+	  HTKLib/esig_asc.c, HTKLib/esig_edr.c, HTKLib/esig_nat.c,
+	  HTKLib/esignal.c, HTKLib/esignal.h, HTKLib/htk_htklib_nt.mkf,
+	  HTKLib/strarr.c, HTKTools/.cvsignore, HTKTools/.directory,
+	  HTKTools/HBuild.c, HTKTools/HCompV.c, HTKTools/HCopy.c,
+	  HTKTools/HDMan.c, HTKTools/HERest.c, HTKTools/HFst.c,
+	  HTKTools/HHEd.c, HTKTools/HInit.c, HTKTools/HLEd.c,
+	  HTKTools/HLRescore.c, HTKTools/HLStats.c, HTKTools/HList.c,
+	  HTKTools/HMGenS.c, HTKTools/HMMIRest.c, HTKTools/HParse.c,
+	  HTKTools/HQuant.c, HTKTools/HRest.c, HTKTools/HResults.c,
+	  HTKTools/HSGen.c, HTKTools/HSLab.c, HTKTools/HSmooth.c,
+	  HTKTools/HVite.c, HTKTools/Makefile.in,
+	  HTKTools/htk_htktools_nt.mkf, env/.directory: Update all files to
+	  HTK-3.4.1.  Add HFst command for forced-alingment of HSMM.
+
+2009-06-24 18:45  uratec
+
+	* HTKLib/HModel.c, HTKLib/HAdapt.c, HTKLib/HFB.c, HTKLib/HGen.c,
+	  HTKLib/HModel.h, HTKLVRec/HLVRec-GC.c, HTKTools/HHEd.c:
+	  Initialize branch 'uratec01' for my test.
+
+2009-04-16 14:08  uratec
+
+	* HTKLVRec/HLVRec-GC.c: Fixed by Junichi Yamagishi: In the garbage
+	  collection of HDecode, the heap is utilized if MODALIGN is true
+	  regardless of dec->modAlign.
+
+2009-04-16 14:06  uratec
+
+	* HTKLib/: HAdapt.c, HFB.c: Merge a patch code provided by Junichi
+	  Yamagishi: Memory leak which affected the observation caches is
+	  fixed in HVite and HAdapt.  The caches are located soon after the
+	  array for the speaker's name.
+
+2009-04-13 14:53  uratec
+
+	* HTKTools/HHEd.c: Fix suggested by Heiga Zen: Parallelization
+	  based on OpenMP for context-clustering.
+
+2009-04-13 14:46  uratec
+
+	* HTKLib/HModel.c, HTKLib/HModel.h, HTKTools/HHEd.c: Fix suggested
+	  by Heiga Zen: Reduced memory version of context-clustering is
+	  added.
+
+2009-01-07 20:05  uratec
+
+	* HTKTools/HHEd.c: A bug in HHEd.c: LoadTree(). This bug causes
+	  segmentation fault when a tree have only one leaf.
+
+2008-12-26 17:42  uratec
+
+	* HTKTools/HHEd.c: Fix suggested by Heiga Zen: A bug of pointer
+	  initialization in HHEd.c: AddLeafList(). This bug doesn't affect
+	  the clustering result and final quality.
+
+2008-11-07 16:31  uratec
+
+	* HTKLib/HGen.c: change diff from float to double
+
+2008-11-06 16:17  uratec
+
+	* .cvsignore, HTKTools/HHEd.c: increase limit of MDLfactor from
+	  10000.0 to 100000000.0
+
+2008-11-06 15:57  uratec
+
+	* HTKLib/HGen.c: Fix suggested by Shannon Matt: a bug in the random
+	  parameter generation part
+
+2008-11-06 15:50  uratec
+
+	* HTKLib/: HUtil.c, HUtil.h: Fix suggested by Heiga Zen: small bug
+	  in HUtil.c
+
+2008-11-06 15:45  uratec
+
+	* HTKLib/HTrain.c: Fix suggested by Heiga Zen: small bug in
+	  HTrain.c (AttachAccsParallel)
+
+2008-07-11 00:47  zen
+
+	* HTKTools/HCompV.c: Fix a bug reported by Keiichiro Oura: Copying
+	  accs[s].fixed.inv -> cov.inv doesn't work properly for MSD-HMMs
+	  with full covariance matrices in SetCovs().
+
+2008-07-07 13:30  zen
+
+	* HTKTools/HHEd.c: Merge a patch code by Yi-Jian Wu and Zhi-Peng
+	  Yu: LoadTree() doesn't work correctly if #streams>9.
+
+2008-06-24 12:25  zen
+
+	* configure, configure.ac, HTKLib/HShell.h: MAXFNAMELEN (max length
+	  of file names) and PAT_LEN (max length of patterns) can also be
+	  set through configure script (e.g., ./configure PAT_LEN=4096).
+
+2008-06-24 12:19  zen
+
+	* HTKTools/HBuild.c, HTKTools/HCopy.c, HTKTools/HDMan.c,
+	  HTKTools/HLEd.c, HTKTools/HMMIRest.c, HTKTools/HResults.c,
+	  HTKTools/HSLab.c, HTKTools/HSmooth.c, HTKLib/HFBLat.c,
+	  HTKLib/HGraf.c, HTKLib/HGraf_WIN32.c, HTKLib/HModel.c,
+	  HTKLib/HParm.c, HTKLib/HShell.c, HTKLib/HWave.c, HTKLib/HLM.c,
+	  HTKLib/HLabel.c: Use MAXSTRLEN and MAXFNAMELEN instead of integer
+	  values.
+
+2008-06-24 12:16  zen
+
+	* HTKTools/HERest.c: Remove unused variable.
+
+2008-06-23 18:23  zen
+
+	* configure, configure.ac, HTKLib/HShell.h: SMAX (max # of streams)
+	  and MAXSTRLEN (max length of strings) now can be set through
+	  configure script (./configure MAXSTRLEN=1024).
+
+2008-06-23 18:21  zen
+
+	* HTKTools/HHEd.c: Merge modification by Marcela Charfuelan:
+	  increase max # of elements of model, question, and temporary
+	  heaps.
+
+2008-06-23 18:15  zen
+
+	* HTKLib/HUtil.c: Merge modification by Marcela Charfuelan: use
+	  MAXSTRLEN instead of 256 for the size of hname[] in
+	  LoadStatsFile().
+
+2008-06-19 21:24  zen
+
+	* HTKTools/HHEd.c: Modification suggested by Junichi Yamagishi: the
+	  MDL threshold value rarely becomes negative due to numerical
+	  errors.  In this situation, it should be set to 0.0.
+
+2008-06-19 13:31  zen
+
+	* HTKLib/HModel.c, HTKLib/HModel.h, HTKTools/HHEd.c: Merge a patch
+	  code provided by Xuchen Yao and Feng Ding: Add "JM" command to
+	  HHEd.  This command merges different models on state or stream
+	  level.  This makes it possible to do "TB" or "TC" command in
+	  parallel and then merge all generated models together.
+
+2008-06-18 22:15  zen
+
+	* HTKLib/HAdapt.c: Fix a bug reported by Yufeng Hao: baseclasses
+	  whose dimensionalities are equal to 0 should be skipped while
+	  generating xforms.
+
+2008-06-18 13:00  zen
+
+	* configure, configure.ac: Update copyright and version number.
+
+2008-06-16 21:13  jyamagi
+
+	* HTKLib/HAdapt.c:
+
+	  Bug fix of HTK (CopyLinXForm)
+
+2008-06-13 15:50  zen
+
+	* HTKLVRec/HLVLM.h, HTKLVRec/HLVNet.c, HTKLVRec/HLVModel.h,
+	  HTKLVRec/HLVNet.h, HTKLVRec/HLVRec-GC.c, HTKLVRec/HLVRec-misc.c,
+	  HTKLVRec/HLVRec.h, HTKLVRec/config.h, HTKLib/esig_asc.c,
+	  HTKLib/esig_nat.c, HTKLib/esignal.c, HTKLib/strarr.c,
+	  HTKLib/strarr.h: Remove HTS license because there is no
+	  difference between HTK and HTS versions of these files.
+
+2008-06-13 15:48  zen
+
+	* HTKLib/HTrain.c: Fix license.
+
+2008-06-13 14:17  zen
+
+	* configure, configure.ac: Update version numbers for the final RC
+	  release.
+
+2008-06-12 19:34  jyamagi
+
+	* HTKLib/HAdapt.c:
+
+	  Add a function for suppressing unnecessary linear matrices
+	  estimated in SMAP estimation (CSMAPLR/SMAPLR)
+
+2008-06-10 15:01  zen
+
+	* HTKTools/HHEd.c: Fix minor bug.
+
+2008-06-09 14:51  zen
+
+	* HTKTools/HHEd.c: Shrink trees if empty nodes exist (HHEd IT
+	  command).
+
+2008-06-06 16:43  zen
+
+	* HTKTools/HHEd.c: Add command 'IT' to HHEd: it enables us to
+	  impose previously constructed decision trees to cluster new sets
+	  of HMMs.
+
+2008-06-06 14:52  zen
+
+	* HTKLib/: HUtil.c, HUtil.h: Add CopySet().
+
+2008-05-30 18:32  zen
+
+	* HTKLib/HTrain.c: Fix bug: variable "htrain_version" was removed
+	  at the previous commit.
+
+2008-05-30 16:19  zen
+
+	* HTKTools/HCompV.c, HTKTools/HCopy.c, HTKTools/HDMan.c,
+	  HTKTools/HLStats.c, HTKTools/HMGenS.c, HTKTools/HMMIRest.c,
+	  HTKTools/HParse.c, HTKTools/HQuant.c, HTKTools/HRest.c,
+	  HTKTools/HResults.c, HTKTools/HVite.c, HTKTools/HBuild.c,
+	  HTKTools/HHEd.c, HTKTools/HLEd.c, HTKTools/HERest.c,
+	  HTKTools/HInit.c, HTKTools/HLRescore.c, HTKTools/HList.c,
+	  HTKTools/HSGen.c, HTKTools/HSLab.c, HTKTools/HSmooth.c,
+	  HTKTools/Makefile.in, HTKLib/HAdapt.c, HTKLib/HAdapt.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HFBLat.c, HTKLib/HFBLat.h,
+	  HTKLib/HGen.c, HTKLib/HGraf_WIN32.c, HTKLib/HMap.c,
+	  HTKLib/HMap.h, HTKLib/HModel.c, HTKLib/HModel.h, HTKLib/HParm.c,
+	  HTKLib/HParm.h, HTKLib/HTrain.c, HTKLib/HTrain.h,
+	  HTKLib/esig_nat.c, HTKLib/esignal.c, HTKLib/esignal.h,
+	  HTKLib/HAudio.c, HTKLib/HAudio.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HGen.h,
+	  HTKLib/HGraf.h, HTKLib/HLM.c, HTKLib/HLM.h, HTKLib/HLat.h,
+	  HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HNet.c, HTKLib/HNet.h,
+	  HTKLib/HRec.c, HTKLib/HRec.h, HTKLib/HShell.c, HTKLib/HShell.h,
+	  HTKLib/HUtil.c, HTKLib/HUtil.h, HTKLib/HVQ.c, HTKLib/HVQ.h,
+	  HTKLib/HWave.c, HTKLib/HWave.h, HTKLib/Makefile.in,
+	  HTKLib/esig_edr.c, HTKLib/lbfgs.h, HTKLib/strarr.c,
+	  HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HGraf.c,
+	  HTKLib/HGraf.null.c, HTKLib/HLabel.c, HTKLib/HLabel.h,
+	  HTKLib/HLat.c, HTKLib/HMem.c, HTKLib/HMem.h, HTKLib/HSigP.c,
+	  HTKLib/HSigP.h, HTKLib/esig_asc.c, HTKLib/strarr.h,
+	  HTKLVRec/HDecode.c, HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c,
+	  HTKLVRec/HLVLM.h, HTKLVRec/HLVModel.c, HTKLVRec/HLVModel.h,
+	  HTKLVRec/HLVNet.c, HTKLVRec/HLVNet.h, HTKLVRec/HLVRec-GC.c,
+	  HTKLVRec/HLVRec-LM.c, HTKLVRec/HLVRec-misc.c,
+	  HTKLVRec/HLVRec-outP.c, HTKLVRec/HLVRec-propagate.c,
+	  HTKLVRec/HLVRec-traceback.c, HTKLVRec/HLVRec.c,
+	  HTKLVRec/HLVRec.h, HTKLVRec/config.h, .cvsignore, Makefile.in,
+	  configure.ac: Replace license to New and Simplified BSD License.
+
+2008-05-30 12:32  zen
+
+	* HTKLib/HModel.c: Fix bug: Add MixPDF *mp;
+
+2008-05-30 12:19  zen
+
+	* HTKLib/HGen.c: Multiply minEucNorm and GVepsilon by M to relax
+	  the convergence thresholds of the speech parameter generation
+	  algorithm considering GV using full-covariance HMMs.
+
+2008-05-23 12:20  zen
+
+	* HTKTools/HERest.c: Remove unused configuration variables and
+	  rename some configuration variables.
+
+2008-05-23 12:16  zen
+
+	* HTKTools/HLRescore.c, HTKLVRec/HDecode.c: Revert previous fix.
+
+2008-05-23 12:12  zen
+
+	* HTKTools/HRest.c: Skip short segments.
+
+2008-05-23 12:08  zen
+
+	* HTKTools/HLRescore.c: Remove unused statements.
+
+2008-05-23 11:51  zen
+
+	* HTKLib/HShell.h: Fix order of prototype definitions.
+
+2008-05-23 11:49  zen
+
+	* HTKLib/HShell.h: MAXFNAMELEN increased to 1034 according to
+	  HTK-3.4.
+
+2008-05-23 11:47  zen
+
+	* HTKLib/HModel.h: Fix typo.
+
+2008-05-23 11:45  zen
+
+	* HTKLib/HModel.c: Clear seen flags for tied-mixture system.  This
+	  fix was made in HTK-3.3 but it has not been included in HTS.
+
+2008-05-23 11:34  zen
+
+	* HTKLib/HMem.c: Minor fix to reduce patch size.
+
+2008-05-23 11:29  zen
+
+	* HTKLib/HLat.c: Fix array size.
+
+2008-05-23 11:27  zen
+
+	* HTKLib/HGraf.null.c: Remove meaningless statement.
+
+2008-05-23 11:15  zen
+
+	* HTKLVRec/HDecode.c: Remove unused statements.
+
+2008-05-23 11:14  zen
+
+	* HTKLVRec/HLVModel.c: Fix typo.
+
+2008-05-23 00:19  zen
+
+	* HTKLib/HGen.c: Fix typo.
+
+2008-05-22 21:36  zen
+
+	* HTKTools/HInit.c: Fix typo.
+
+2008-05-22 16:48  zen
+
+	* HTKLib/HLat.c: Fix bug: HTK -> HTS porting bug.
+
+2008-05-22 16:21  zen
+
+	* HTKTools/HERest.c: Small log message modification.
+
+2008-05-21 13:03  zen
+
+	* HTKLib/HParm.c: Fix a bug in delta and delta-delta calculation.
+	  This bug was originally come from HTK-3.3 and was not fixed when
+	  I ported HTS to HTK-3.4.
+
+2008-05-12 17:18  zen
+
+	* HTKLVRec/HLVRec-outP.c: Fix bug reported by Brian Ore.
+
+2008-05-08 13:47  zen
+
+	* HTKLib/: HGen.c, HGen.h: Turn off LBFGS if no FORTRAN compiler
+	  exists.  Include log GV, context-dependent GV, and GV excluding
+	  silence.
+
+2008-05-08 13:41  zen
+
+	* configure, configure.ac, HTKTools/Makefile.in,
+	  HTKLib/Makefile.in: Turn off LBFGS if no FORTRAN compiler exists.
+
+2008-04-03 13:45  zen
+
+	* HTKTools/HERest.c: Fix a bug in the previous commit.
+
+2008-03-27 14:55  zen
+
+	* HTKTools/HHEd.c: Use PAT_LEN instead of MAXSTRLEN for the size of
+	  char * variables which store pattern.  Use ReadStringWithLen()
+	  instaed of ReadString() to read pattern.
+
+2008-03-27 14:52  zen
+
+	* HTKTools/HERest.c: Call HMap.c:SetMinVar() to set min variance
+	  for duration models.	Move SetVFloor() and ResetVFloor() from
+	  UpdateVars() to MLUpdateModels() because it outputs thousands of
+	  warnings if varFloor macros do not exist.
+
+2008-03-27 14:49  zen
+
+	* HTKLib/: HMap.c, HMap.h: Add configuration variable to control
+	  variance flooring.  Add functions to set mixture and variance
+	  flooring values from outside modules.
+
+2008-03-24 10:52  zen
+
+	* configure: Remove AC_PROG_CXX.
+
+2008-03-24 10:51  zen
+
+	* HTKLib/HModel.c: Small modification of SOutP().
+
+2008-03-24 10:50  zen
+
+	* HTKLVRec/HLVRec-outP.c: Support MSD.
+
+2008-03-24 10:50  zen
+
+	* HTKLVRec/HDecode.c: Fix copyright year.
+
+2008-03-24 10:32  zen
+
+	* configure.ac: Remove AC_PROG_CXX.
+
+2008-03-24 10:31  zen
+
+	* HTKLib/HFB.c: Initialize variable to avoid warning.  Cast
+	  variable to avoid warning on 64-bit environments.
+
+2008-03-24 10:29  zen
+
+	* HTKLib/HGen.c: Initialize variables to avoid warning.
+
+2008-03-24 10:28  zen
+
+	* HTKLVRec/HDecode.c: Use %zd instead of %d for size_t in printf().
+
+2008-03-20 13:44  zen
+
+	* configure, configure.ac: Remove hts_engine related parts.  Fix
+	  version number.
+
+2008-03-20 13:13  zen
+
+	* HTKLib/HAdapt.c: Fix copyright year.
+
+2008-03-19 20:30  zen
+
+	* HTKLib/HAdapt.c: Modify Copyright year.
+
+2008-03-13 05:12  jyamagi
+
+	* HTKLib/HAdapt.c:
+
+	  Support CSMAPLR/SMAPLR adaptation algorithms
+
+2008-03-05 13:03  zen
+
+	* HTKTools/HHEd.c: Cancel previous commit.
+
+2008-03-05 12:58  zen
+
+	* HTKTools/HHEd.c: Convert loaded mmfs to full covariance form
+	  after loading xforms in AdaptXFormCommand().
+
+2008-03-04 01:55  zen
+
+	* HTKTools/HHEd.c: Support 'MU *2 {...}' in MixUpCommand().  We can
+	  easily increase the number of mixture components.
+
+2008-03-02 14:53  zen
+
+	* HTKTools/HHEd.c: Implement mixture-level occ threshold in mixing
+	  up process.
+
+2008-03-02 14:50  zen
+
+	* HTKTools/HMGenS.c: Call InitialiseForBack() only if case 2 or
+	  case 3 parameter generation algorithm is used.
+
+2008-03-02 14:49  zen
+
+	* HTKTools/HVite.c: Fix function call.
+
+2008-03-02 14:48  zen
+
+	* HTKTools/HERest.c: Update variance floors only if variance update
+	  flag is on.
+
+2008-03-02 14:42  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h, HFB.c, HFBLat.c: Move observation
+	  and accumulator cache list to XFInfo.  Fix bug in variance
+	  flooring for STC.  Set default maxstddevCoef to 10.
+
+2008-03-02 14:37  zen
+
+	* HTKLib/HGen.c: Output warning if state output prob is 0.
+
+2008-03-02 14:34  zen
+
+	* HTKLib/HMap.c: Call ResetVFloor().
+
+2008-02-22 15:36  zen
+
+	* HTKLib/HFB.c: Add a configuration variable "MINDUR" to set
+	  minimum durations in the HSMM forward-backward algorithm.
+
+2008-02-18 12:58  zen
+
+	* HTKLib/HAdapt.c: Fix bug: check the full covariance transform
+	  flag in ApplyCompXForm().
+
+2008-02-16 02:20  zen
+
+	* HTKTools/HHEd.c: Stop if tree files are loaded before loading
+	  stats file in Dec2RegTreeCommand().
+
+2008-02-16 01:15  zen
+
+	* HTKTools/HHEd.c: Support SMAX>10 in FloorVectorCommand().
+
+2008-02-04 01:59  zen
+
+	* HTKLib/HModel.c: Do not stop if bclass->ilist[b]==NULL.
+
+2008-02-01 02:56  zen
+
+	* HTKTools/HHEd.c: Do not output redundunt model lists in
+	  PrintNodeBaseClass().
+
+2008-01-30 00:36  zen
+
+	* HTKTools/HHEd.c: Fix string length.
+
+2008-01-20 18:28  zen
+
+	* HTKLib/HAdapt.c: Stream-dependent variance flooring scales for
+	  semi-tied covariance matrices.
+
+2008-01-20 18:02  zen
+
+	* configure.ac, Makefile.in: Remove stand-alone hts_engine.
+
+2008-01-18 12:27  zen
+
+	* HTKLib/HUtil.c: Store stream-level occupancy counts at sti->hook
+	  in any systems.
+
+2008-01-18 12:26  zen
+
+	* HTKLib/HTrain.c: Dump and load state-level occupancy counts if
+	  given HMM set is a shared-stream system.
+
+2008-01-18 12:24  zen
+
+	* HTKTools/HERest.c, HTKLib/HFB.c, HTKLib/HFB.h: Remove
+	  fbInfo->stats.
+
+2008-01-18 12:23  zen
+
+	* HTKTools/HHEd.c: Fix 3 bugs: Use stream-level occupancy counts in
+	  InitTreeAccs().  Number of initial terminal nodes for regression
+	  class construction in BuildRegCluster().  Initialize pureStream
+	  and putVecSize of root node if nComponenNonSp>0 in InitRegTree().
+
+2008-01-16 13:24  zen
+
+	* HTKLVRec/.cvsignore: Update .cvsignore.
+
+2008-01-15 22:41  zen
+
+	* HTKTools/Makefile.in: Fix bug reported by Junichi Yamagishi: Use
+	  -p option in mkdir.
+
+2008-01-15 22:18  zen
+
+	* HTKLVRec/: HDecode.c, HDecode.mod.c: Fix bug reported by Junichi
+	  Yamagishi: Modify arguments of InitAdapt() and
+	  CreateAdaptXForm().
+
+2008-01-15 15:27  zen
+
+	* ChangeLog.htk: Remove ChangeLog.htk.
+
+2008-01-15 13:30  zen
+
+	* .cvsignore: Update .cvsignore.
+
+2008-01-15 13:27  zen
+
+	* HTKTools/Makefile.in, configure, configure.ac: Modifications to
+	  support gcc4: Search libgortran if libg2c is not found.  Add a
+	  variable "FORTRANLIB" to specify fortran library to be used.
+
+2008-01-15 02:28  zen
+
+	* HTKTools/HHEd.c: Stop if macId==NULL in DeleteMacroCommand().
+
+2008-01-15 02:27  zen
+
+	* HTKLib/HAdapt.c: Fix saveFullC and xfinfo->outFullC handling.
+	  Create MInfo if xfinfo->xKind==SEMIT.
+
+2008-01-14 00:02  zen
+
+	* HTKLib/HUtil.c: Add mixture component to the item list if
+	  msdflag[s] is TRUE in PMix().
+
+2008-01-13 23:58  zen
+
+	* HTKLib/HFB.c: Remove an unused variable.
+
+2008-01-11 12:08  zen
+
+	* HTKTools/HMGenS.c: Reset pre-computed state duration probs if
+	  speaker changes.  Set xform-related variables in fbInfo.
+
+2008-01-11 12:06  zen
+
+	* HTKTools/HERest.c: Reset pre-computed state duration probs if
+	  speaker changes.
+
+2008-01-11 11:58  zen
+
+	* HTKLib/HGen.c: Fix 1 bug: state duration prob distributions
+	  should be transformed.
+
+2008-01-11 11:52  zen
+
+	* HTKLib/HFB.h: Add ResetDMMPreComps().
+
+2008-01-11 11:52  zen
+
+	* HTKLib/HFB.c: Fix 2 bugs: 1. maxDur should be calculated using
+	  transformed variance values.	2. pre-calculated state duration
+	  probs should be reset if speaker changes (in SAT).
+
+2008-01-11 11:49  zen
+
+	* HTKLib/HAdapt.c: Fix 3 bugs: 1. Do not transform a given
+	  observation vector if mp->ckind==FULLC, because model parameters
+	  rather than observation vector has already been transformed.	2.
+	  Store hook to transformed covariance matrix to mi->cov.var rather
+	  than mp->cov.var.  3. Speaker change detection was wrong.
+
+2008-01-09 17:38  zen
+
+	* HTKTools/HHEd.c: Fix bug: baseclass mmf was not generated
+	  properly if tree->size==0 (root node only).
+
+2008-01-09 17:13  zen
+
+	* HTKTools/HMGenS.c: Do no attach accs if stateAlign==TRUE.  Do not
+	  give dset for InitialiseForBack() if stateAlign==TRUE.
+
+2008-01-09 10:35  zen
+
+	* HTKLib/HFB.c: Reset previous commit.
+
+2008-01-09 10:32  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h: Move baseTriMatTime to XFInfo.
+
+2008-01-08 18:43  zen
+
+	* HTKLib/HFBLat.c: Remove variable s from AccAdaptFrame().  Update
+	  Copyright year.
+
+2008-01-08 18:36  zen
+
+	* HTKTools/HERest.c, HTKTools/HHEd.c, HTKTools/HMGenS.c,
+	  HTKTools/HMMIRest.c, HTKTools/HVite.c, HTKLib/HAdapt.c,
+	  HTKLib/HAdapt.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HTrain.c,
+	  HTKLib/HTrain.h, HTKLib/HUtil.c: Update Copyright year.
+
+2008-01-08 18:23  zen
+
+	* HTKTools/.cvsignore: Update .cvsignore.
+
+2008-01-08 18:23  zen
+
+	* HTKLib/HFB.c: Accumulating statistics for duration xform in
+	  UpDurParms() is computationally very inefficient because
+	  observation caches in HAdapt doesn't work well.  So we added a
+	  function UpDurXForm() to solve this.
+
+2008-01-08 18:20  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h: Remove variable s from
+	  AccAdaptFrame().  Add OpenMP pragma to UpdateBaseAccs().
+
+2008-01-08 14:53  zen
+
+	* HTKTools/.cvsignore: Update .cvsignore.
+
+2008-01-08 14:45  zen
+
+	* HTKTools/HHEd.c: Initialize shrinkOccThresh.	Terminate baseclass
+	  HMM list generation if shrinkOccThresh==NULL.
+
+2008-01-07 22:31  zen
+
+	* HTKTools/HERest.c, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HTrain.c,
+	  HTKLib/HUtil.c: Fix bug: statistics in generated stats file are
+	  invalid in stream shared systems.
+
+2008-01-07 22:27  zen
+
+	* HTKTools/HHEd.c: Shrink loaded decision trees according to
+	  occupancies in DecTrees2RegTreeCommand().
+
+2008-01-04 16:30  zen
+
+	* HTKTools/HMGenS.c: Update copyright year.
+
+2008-01-04 16:30  zen
+
+	* configure.ac: Update version number.	Do not stop if libX11 is
+	  not found.
+
+2008-01-04 14:51  zen
+
+	* HTKTools/HMGenS.c: Add a configuration variable "useHMMFB" to
+	  turn off the use of duration models in the forward-backward
+	  algorithm.
+
+2008-01-04 14:36  zen
+
+	* HTKTools/HERest.c: Add a variable uFlags_dur to store update
+	  flags for duration models.  Parse duration update flags in
+	  SetuFlags().
+
+2008-01-04 14:35  zen
+
+	* HTKTools/HVite.c: Fix bug: fbInfo->xfInfo_hmm  should be
+	  fbInfo->xfinfo_hmm.
+
+2008-01-04 14:33  zen
+
+	* HTKTools/HMGenS.c: Add an option "-b" to turn on input xform for
+	  state duration models.  Change the mixture pruning threshold
+	  option to -g.
+
+2008-01-04 14:32  zen
+
+	* HTKLib/: HFB.c, HTrain.h: Remove UPDUR from UPDSet.
+
+2008-01-03 10:37  zen
+
+	* HTKTools/HERest.c, HTKTools/HHEd.c, HTKTools/HMGenS.c,
+	  HTKTools/HMMIRest.c, HTKTools/HVite.c, HTKLib/HAdapt.c,
+	  HTKLib/HAdapt.h: Support HSMM adaptation & adaptive training.
+
+2007-12-29 00:14  zen
+
+	* HTKLib/HWave.c: Small modification to avoid warnings.
+
+2007-12-28 23:47  zen
+
+	* HTKLib/: HModel.c, HModel.h: Move a static variable xformDirNames
+	  to HMMSet.
+
+2007-12-28 23:45  zen
+
+	* HTKLib/HFB.c: Fix bugs: Use parent xform for parameter updates in
+	  UpDurParms().  Call UpDUrParms() if UPXFORMS is turned on.  Turn
+	  off UPTRANS for state duration models.
+
+2007-12-27 18:16  zen
+
+	* HTKLib/HModel.c: Fix bug: index variables and others in HMMDef,
+	  StateInfo, and StreamInfo should be initialised.
+
+2007-12-27 17:00  zen
+
+	* HTKTools/HHEd.c: Fix bug: ch1 & ch2 should not be freed at the
+	  end of BuildRegClusters().
+
+2007-12-26 03:41  zen
+
+	* HTKTools/HERest.c: Add static variable durmapTau and call
+	  SetMapTau() to change mapTau value for duration models.
+
+2007-12-26 03:38  zen
+
+	* HTKLib/: HMap.c, HMap.h: Add SetMapTau() to set mapTau from other
+	  modules.
+
+2007-12-25 16:22  zen
+
+	* HTKTools/HVite.c: Fix bug: initialize fbInfo->xfinfo_hmm by
+	  xfInfo to support online incremental adaptation.
+
+2007-12-25 14:48  zen
+
+	* HTKTools/HERest.c, HTKTools/HMMIRest.c, HTKTools/HVite.c,
+	  HTKLib/HAdapt.c, HTKLib/HAdapt.h, HTKLib/HFB.c, HTKLib/HFB.h,
+	  HTKLib/HFBLat.c, HTKLib/HFBLat.h: Move static variables in
+	  HAdapt.c to structure XFInfo and modify related parts.
+
+2007-12-23 03:48  zen
+
+	* HTKTools/HERest.c: Remove SaveInOneFile().
+
+2007-12-22 22:37  zen
+
+	* HTKTools/HERest.c: Add checks for # and name of dump files.
+
+2007-12-22 03:24  zen
+
+	* HTKTools/HERest.c: Fixes to support parallel training with state
+	  duration models.
+
+2007-12-22 03:22  zen
+
+	* HTKLib/HFB.c: Change wa->c from Vector to SVector.  Cache state
+	  duration probs in hooks of wa->c.
+
+2007-12-21 11:59  zen
+
+	* HTKLib/HFB.c: Do not compute lMax and gMax in SetBeta() if
+	  pruning is turned off.
+
+2007-12-21 04:30  zen
+
+	* HTKLib/HFB.c: Small speed improvements.
+
+2007-12-20 03:32  zen
+
+	* HTKTools/HMGenS.c: Call PrintrFlags() to trace random generation
+	  flags.
+
+2007-12-20 03:31  zen
+
+	* HTKLib/: HGen.c, HGen.h: Add PrintrFlags() to print the status of
+	  random generation flags.  Export SetrFlags() and PrintrFlags().
+
+2007-12-20 03:00  zen
+
+	* HTKLib/HGen.c, HTKLib/HGen.h, HTKTools/HMGenS.c: Implement random
+	  sampling of state transitions, state durations, MSD spaces, and
+	  mixture components.
+
+2007-12-20 01:59  zen
+
+	* HTKLib/HMath.c: Modify MultiNomial().
+
+2007-12-19 16:35  zen
+
+	* HTKTools/HHEd.c: Fix typo.
+
+2007-12-18 12:32  zen
+
+	* HTKLib/HFB.c: Fix bug: aqt1 rather than aqt should be used.
+
+2007-12-17 11:43  zen
+
+	* HTKLib/HFB.c: Fix bugs: al_dList and up_dList should be created
+	  in CreateInsts() even no update flags for duration models is
+	  specified.  In UpMixParms, bqt[1][1] should be added to initx if
+	  t==1.
+
+2007-12-17 11:40  zen
+
+	* HTKTools/.cvsignore: Add *.mmf to .cvsignore.
+
+2007-12-17 01:28  zen
+
+	* HTKTools/HRest.c: Fix bug: stream index should be dcremented.
+
+2007-12-14 23:28  zen
+
+	* HTKLib/: HMath.c, HMath.h: Add a function to sample a random
+	  value from a multinomial distribution.
+
+2007-12-14 14:52  zen
+
+	* HTKLib/HFB.c: Support non-left-to-right structure in
+	  FixTransHSMM().
+
+2007-12-14 13:16  zen
+
+	* HTKTools/HRest.c: Fix bug: HRest should generate a state duration
+	  model in new multi-stream format.
+
+2007-12-12 18:45  zen
+
+	* HTKTools/.cvsignore, HTKTools/HERest.c, HTKTools/HHEd.c,
+	  HTKTools/HLEd.c, HTKTools/HMGenS.c, HTKTools/HVite.c,
+	  HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HGen.c, HTKLib/HGen.h,
+	  HTKLib/HShell.c, HTKLib/HTrain.h: Merge branch 'HSMM' and HEAD.
+
+2007-12-12 18:32  zen
+
+	* HTKTools/.cvsignore: Update .cvsignore.
+
+2007-12-12 18:31  zen
+
+	* HTKTools/HERest.c, HTKTools/HMGenS.c, HTKTools/HVite.c,
+	  HTKLib/HShell.c, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HTrain.h:
+	  Support HSMM training and synthesis.
+
+2007-12-12 18:30  zen
+
+	* HTKLib/: HGen.c, HGen.h: Export JointProb().
+
+2007-12-12 18:29  zen
+
+	* HTKTools/HLEd.c: Cast to avoid warning.
+
+2007-12-12 18:29  zen
+
+	* HTKTools/HHEd.c: Remove an unused variable.
+
+2007-12-04 18:38  zen
+
+	* HTKLib/HUtil.c: Fix bug: GoNextHMM() stops by a segmentation
+	  fault if "~b" macro exists but all models in a given list doesn't
+	  exist in a model set.
+
+2007-11-29 15:56  zen
+
+	* HTKLib/HGen.c: Fix bug: rho should be 0.0 if phoneme boundaries
+	  are not specified in SetStateDurations().
+
+2007-11-29 14:59  zen
+
+	* HTKLib/HGen.c: Output an error message if gv model is not found
+	  in a model set.
+
+2007-11-21 17:49  zen
+
+	* HTKTools/HMGenS.c: Fix a bug reported by Simon King: File names
+	  of window files a weren't output properly.
+
+2007-11-21 17:45  zen
+
+	* HTKLib/HGen.c: Check window length to avoid invalid window files.
+
+2007-11-19 15:25  zen
+
+	* HTKLib/HGraf.null.c: Fix a bug reported by Simon King: there is a
+	  stray semicolon in ResetGraf().
+
+2007-11-01 17:32  zen
+
+	* HTKLib/HGen.c: Fix comment.
+
+2007-11-01 17:17  zen
+
+	* HTKLib/HGen.c: Add go back mechanism to steepest ascent and
+	  Newton's method-based GV optimization.  Fix convergence check in
+	  EM-based iterative optimization.
+
+2007-11-01 15:04  zen
+
+	* HTKLib/HGen.c: Modify convergence check part in GV_ParmGen().
+
+2007-11-01 13:45  zen
+
+	* HTKLib/HGen.c: Fix the convergence check part of GV_ParmGen().
+
+2007-10-31 16:16  zen
+
+	* configure, configure.ac, HTKLib/Makefile.in: Do not generate
+	  HTKLiblv.a if HDecode is not compiled.
+
+2007-10-31 15:39  zen
+
+	* HTKLib/lbfgs.f: Use double.
+
+2007-10-30 03:52  zen
+
+	* HTKLib/HGen.c: LBFGS-related fixes.
+
+2007-10-29 18:01  zen
+
+	* HTKTools/HHEd.c: Fix the previous commit.
+
+2007-10-29 17:47  zen
+
+	* HTKTools/HHEd.c, configure.ac: Add new command DM to delete
+	  macro.
+
+2007-10-29 17:20  zen
+
+	* HTKLib/HGen.c: Change xtol from 1.0e-5 to 1.0e-15 (machine
+	  precision on x86).
+
+2007-10-17 18:08  zen
+
+	* configure: Generate a new configure script for the new
+	  configure.ac.
+
+2007-10-17 17:46  zen
+
+	* configure.ac: Fix the previous commit.
+
+2007-10-17 17:45  zen
+
+	* configure.ac: Output an error message if required library is not
+	  find.
+
+2007-10-17 14:11  zen
+
+	* HTKLib/HGen.c: Fix bug reported by Yi-Jian Wu: Boundary handling
+	  at the first frame doesn't work correctly.  It sometimes causes
+	  disorders in generated LSPs.
+
+2007-10-16 16:43  zen
+
+	* .cvsignore, configure: Update configure.
+
+2007-10-16 01:37  zen
+
+	* HTKLib/Makefile.in: Fix previous commit.
+
+2007-10-16 01:36  zen
+
+	* HTKTools/Makefile.in, HTKLib/Makefile.in: Modify Makefile.in to
+	  compile lbfgs.f and link libg2c.
+
+2007-10-15 15:58  zen
+
+	* HTKLib/: HGen.c, HGen.h: Modifications to support GV.
+
+2007-10-15 15:13  zen
+
+	* configure.ac: Modifications to check settings for FORTRAN.
+
+2007-10-15 15:05  zen
+
+	* HTKLib/: lbfgs.f, lbfgs.h: Add L-BFGS codes for GV.
+
+2007-10-15 14:57  zen
+
+	* HTKTools/HCompV.c: Fix bug reported by Yi-Jian Wu: totalCount
+	  should be prepared for each stream separately because it may
+	  differ in MSD-HMMs.
+
+2007-10-15 11:10  zen
+
+	* HTKTools/HCompV.c: Fix bug: totalCount should be prepared for
+	  each stream separately because it differs in MSD-HMMs.
+
+2007-10-14 15:45  zen
+
+	* HTKTools/HHEd.c: Fix bug: unused macros are not perged if we try
+	  to run TI command for models which have tying structure.
+
+2007-10-10 13:26  zen
+
+	* HTKTools/HHEd.c: Fix fatal bug: forget break in switch :-(
+
+2007-10-04 15:50  zen
+
+	* HTKTools/HLEd.c, HTKTools/HMMIRest.c, HTKTools/HBuild.c,
+	  HTKTools/HERest.c, HTKTools/HLStats.c, HTKTools/HResults.c,
+	  HTKTools/HSmooth.c, HTKLib/HExactMPE.c, HTKLib/HFBLat.c,
+	  HTKLib/HLM.c, HTKLib/HTrain.c: Fix the previous 64-bit support
+	  fix.
+
+2007-10-04 13:31  zen
+
+	* HTKLib/HModel.c, HTKTools/HInit.c: Fix the previous 64-bit
+	  support fix.
+
+2007-10-03 16:20  zen
+
+	* HTKTools/HBuild.c, HTKTools/HDMan.c, HTKTools/HERest.c,
+	  HTKTools/HHEd.c, HTKTools/HInit.c, HTKTools/HLEd.c,
+	  HTKTools/HLStats.c, HTKTools/HMMIRest.c, HTKTools/HParse.c,
+	  HTKTools/HResults.c, HTKTools/HSmooth.c, HTKTools/Makefile.in,
+	  HTKLib/HAdapt.c, HTKLib/HFB.c, HTKLib/HFBLat.c, HTKLib/HMap.c,
+	  HTKLib/HModel.c, HTKLib/HArc.c, HTKLib/HDict.c,
+	  HTKLib/HExactMPE.c, HTKLib/HLM.c, HTKLib/HLat.c, HTKLib/HMem.c,
+	  HTKLib/HNet.c, HTKLib/HTrain.c, configure, configure.ac: Apply
+	  patch code to support 64-bit environments by Hisashi Kawai.
+
+2007-10-03 12:17  zen
+
+	* HTKTools/HERest.c: Remove unused variable "shared".
+
+2007-10-03 12:14  zen
+
+	* HTKLib/HFBLat.c: Initialize currCorrect in
+	  SetCorrectnessAsError().
+
+2007-10-02 20:54  zen
+
+	* HTKLib/HMath.c: Free vv in LUDecompose() and DLUDecompose().
+
+2007-10-02 03:25  zen
+
+	* configure.ac: Add AC_PREFIX_DEFAULT.	Change dnl to #.
+
+2007-10-02 03:21  zen
+
+	* Makefile.in: Update license.
+
+2007-10-02 03:07  zen
+
+	* HTKLVRec/: HDecode.c, HDecode.mod.c, HLVLM.c, HLVLM.h,
+	  HLVModel.c, HLVModel.h, HLVNet.c, HLVNet.h, HLVRec-GC.c,
+	  HLVRec-LM.c, HLVRec-misc.c, HLVRec-outP.c, HLVRec-propagate.c,
+	  HLVRec-traceback.c, HLVRec.c, HLVRec.h, config.h: Update license.
+
+2007-10-02 02:54  zen
+
+	* HTKTools/HERest.c: Comment out unused variables (maybe used in
+	  future releases).
+
+2007-10-02 02:53  zen
+
+	* HTKLib/HFB.c: Initialize variables.
+
+2007-10-01 01:27  zen
+
+	* HTKLVRec/HLVRec.c, HTKLib/HArc.c: Fix two bugs reported by
+	  Zhi-Jie Yan in HTK-Developers ML.
+
+2007-09-28 11:12  zen
+
+	* HTKLib/.cvsignore, HTKTools/.cvsignore, .cvsignore: Update
+	  .cvsignore.
+
+2007-09-27 18:16  zen
+
+	* HTKLib/HAdapt.c: Remove unused variable and fix arguments of
+	  functions.
+
+2007-09-18 21:24  zen
+
+	* HTKTools/: HBuild.c, HCompV.c, HCopy.c, HDMan.c, HERest.c,
+	  HInit.c, HLEd.c, HLRescore.c, HLStats.c, HList.c, HMMIRest.c,
+	  HParse.c, HQuant.c, HRest.c, HResults.c, HSGen.c, HSLab.c,
+	  HSmooth.c, HVite.c: Update license of HTS.
+
+2007-09-18 21:22  zen
+
+	* HTKTools/.cvsignore: Add several files.
+
+2007-09-18 21:20  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h, HArc.c, HArc.h, HAudio.c, HAudio.h,
+	  HDict.c, HDict.h, HExactMPE.c, HExactMPE.h, HFB.c, HFB.h,
+	  HFBLat.c, HFBLat.h, HGen.h, HGraf.c, HGraf.h, HGraf.null.c,
+	  HGraf_WIN32.c, HLM.c, HLM.h, HLabel.c, HLabel.h, HLat.c, HLat.h,
+	  HMap.c, HMap.h, HMath.c, HMath.h, HMem.c, HMem.h, HModel.c,
+	  HModel.h, HNet.c, HNet.h, HParm.c, HParm.h, HRec.c, HRec.h,
+	  HShell.c, HShell.h, HSigP.c, HSigP.h, HTrain.c, HTrain.h,
+	  HUtil.c, HUtil.h, HVQ.c, HVQ.h, HWave.c, HWave.h, esig_asc.c,
+	  esig_edr.c, esig_nat.c, esignal.c, esignal.h, strarr.c, strarr.h:
+	  Update license of HTS.
+
+2007-09-18 21:19  zen
+
+	* HTKLib/.cvsignore: Add log.
+
+2007-09-18 21:17  zen
+
+	* configure: Update for version 2.0.1.
+
+2007-09-17 21:29  zen
+
+	* HTKLib/HFB.c: Remove unused variables.
+
+2007-09-17 21:21  zen
+
+	* HTKLib/HMath.c: Add casts.
+
+2007-09-17 21:16  zen
+
+	* HTKLib/HUtil.c: 1 -> 1.0.
+
+2007-09-17 21:14  zen
+
+	* HTKTools/HMGenS.c: Remove unused variables.
+
+2007-09-17 21:12  zen
+
+	* HTKTools/HHEd.c: 1 -> 1.0.  Remove unused variables.	DISCRETE ->
+	  DISCRETEHS.
+
+2007-09-17 20:26  zen
+
+	* HTKLib/HGen.c: Remove unused variables.  Add casting.
+
+2007-09-17 19:57  zen
+
+	* HTKLib/HAdapt.c: Small fixes.
+
+2007-09-12 17:23  zen
+
+	* HTKTools/HHEd.c: MDL factor range is modified.  From 0.0-10.0 to
+	  0.0 -> 10000.0.
+
+2007-09-12 17:17  zen
+
+	* HTKTools/HCompV.c: Stream-dependent variance flooring scales.
+
+2007-09-12 17:14  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HUtil.c, HTKLib/HUtil.h,
+	  HTKTools/HMGenS.c: Move ParseConf{Vec,IntVec,StrVec,BoolVec} to
+	  HUtil.c.
+
+2007-09-07 17:57  zen
+
+	* HTKLib/HGen.c, HTKTools/HMGenS.c: Update version number.
+
+2007-09-06 12:46  zen
+
+	* HTKTools/HMMIRest.c: Fix bug reported in HTK-Developers ML by
+	  Arlindo Veiga.
+
+2007-09-06 12:43  zen
+
+	* configure.ac: Support Intel Mac.
+
+2007-09-05 16:16  zen
+
+	* configure.ac: Update configure.ac for the HTS-2.0.1 release.
+
+2007-09-05 15:39  zen
+
+	* HTKTools/HMGenS.c: Support state duration models with mult-stream
+	  structure in WriteStateDurations().  Add & update comments.
+
+2007-09-05 15:37  zen
+
+	* HTKTools/HHEd.c: Support state duration models with multi-stream
+	  structure in ConvertModelsCommand() without losing the
+	  compatibility to the past hts_engine releases.  Add
+	  DiagVarCommand() which converts full covariance mmf to diagonal
+	  covariance form.
+
+2007-09-05 15:29  zen
+
+	* HTKLib/Makefile.in: Remove HGen.lv.o.
+
+2007-09-05 15:28  zen
+
+	* HTKLib/HGen.c: Support state duration models with mult-stream
+	  structure in SetStateDurations().
+
+2007-07-17 18:41  zen
+
+	* AUTHORS: [no log message]
+
+2007-07-17 18:36  zen
+
+	* AUTHORS: [no log message]
+
+2007-07-17 18:20  zen
+
+	* HTKTools/HMGenS.c: Fix and add comments.
+
+2007-07-17 16:04  zen
+
+	* HTKLib/HGen.c: * Add comments.
+
+2007-07-17 15:47  zen
+
+	* HTKLib/HAdapt.c: * Fix memory handling in full <-> diag
+	  covariance conversion.  * Add comments.  * Support band structure
+	  for MLLRMEAN/MLLRCOV/CMLLR/SEMIT transforms.
+
+2007-07-17 11:29  zen
+
+	* HTKLib/HGen.c: Add mean and variance of Gaussian noise for random
+	  generation.
+
+2007-07-12 15:39  zen
+
+	* HTKLib/HMath.h: Covariance: struct -> union.
+
+2007-07-12 15:34  zen
+
+	* HTKTools/: HMGenS.c, HVite.c: Fix InitialiseForBack() interface.
+
+2007-07-12 15:33  zen
+
+	* HTKLib/HShell.h: Increase SMAX from 8 to 9.
+
+2007-07-12 15:32  zen
+
+	* HTKLib/: HModel.c, HModel.h: Add ResetVFloor().
+
+2007-07-12 15:31  zen
+
+	* HTKLib/HGen.c: Fix bug: ergotic HMM with state alignments doesn't
+	  work correctly.
+
+2007-07-12 15:29  zen
+
+	* HTKLib/HFB.c, HTKLib/HFB.h, HTKTools/HERest.c: Estimate state
+	  duration models in a same manner used to estimate HMMs.
+
+2007-06-20 02:55  jyamagi
+
+	* HTKLib/HGen.c:
+	  Modify SetupPdfStreams
+
+2007-04-03 12:41  zen
+
+	* ChangeLog.htk: Add ChangeLog.htk
+
+2007-04-03 12:33  zen
+
+	* HTKLib/HFB.c: Properly allocate otprob vector if
+	  hsKind==DISCRETEHS && S!=1
+
+2007-03-19 08:01  tnose
+
+	* HTKTools/HMGenS.c: Usage for -c 1 option was modified.
+
+2007-03-07 10:22  zen
+
+	* HTKTools/HHEd.c: * Merge TiePDF and TieStream.  * TiePDF():
+	  Compose tied mix. if joinSize!=0.  * SplitStreamCommand(): Fix a
+	  bug in variance flooring handling.  * SplitStreams:
+	  S*sizeof(StreamInfo) should be sizeof(StreamInfo).
+
+2007-03-07 10:11  zen
+
+	* HTKLib/HAdapt.c: AccCMLLRBaseStats(): Return if
+	  ra->bTriMat==NULL.
+
+2007-02-27 14:53  zen
+
+	* HTKTools/HERest.c:	if (al_inXFormExt==NULL)  al_inXFormExt =
+	  al_inXFormExt
+	  -> if (al_inXFormExt==NULL) al_inXFormExt = inXFormExt
+
+2007-02-15 18:33  zen
+
+	* HTKLib/HAdapt.c:
+	  * Add many comments.	* ApplyHMMSetXForm: check parent xforms.
+
+2007-02-12 20:46  zen
+
+	* HTKLib/HShell.h: Fix MAXFNAMELEN
+
+2007-02-12 20:32  zen
+
+	* HTKLib/HAdapt.c: [no log message]
+
+2007-02-12 20:27  zen
+
+	* HTKLib/HAdapt.c: [no log message]
+
+2007-01-31 15:56  zen
+
+	* HTKLib/HAdapt.c: Set hset->ckind=DIAGC in ResetXFormHMMSet if
+	  hset->ckind=FULLC.
+
+2007-01-31 15:53  zen
+
+	* HTKLib/HAdapt.c: Duplicate xformName.
+
+2007-01-30 19:35  zen
+
+	* HTKLib/HRec.c: Use StreamInfo instead of StreamElem.
+
+2007-01-30 19:33  zen
+
+	* HTKLib/HMath.h: Covariance: union -> struct
+
+2007-01-22 16:46  zen
+
+	* HTKTools/HHEd.c: bname and index are too small.
+
+2007-01-07 12:53  zen
+
+	* HTKLVRec/: HDecode.c, HLVRec-LM.c, HLVRec-propagate.c: Avoid icc
+	  warnings.
+
+2007-01-07 12:25  zen
+
+	* HTKLib/HAdapt.c: Handle FULLC case in ResetComp.
+
+2007-01-07 12:23  zen
+
+	* HTKLib/HModel.c: Initialise mp->cov.{var,inv,xform} to NULL
+
+2007-01-04 23:43  jyamagi
+
+	* HTKLib/HUtil.c:
+
+	  Remove % from pattern match for speeding up
+
+	  -	if ((*p=='*')||(*p=='?')||(*p=='%')) +	   if
+	  ((*p=='*')||(*p=='?')) fullName=FALSE;
+
+2006-12-29 20:17  zen
+
+	* configure.ac, HTKTools/HCluster.c, HTKTools/Makefile.icc:
+	  * Delete HCluster.c and Makefile.icc
+
+	  * Update license in configure.ac
+
+2006-12-29 13:44  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HAudio.c, HTKLib/HAudio.h,
+	  HTKLib/HGraf.c, HTKLib/HGraf.null.c, HTKLib/HLM.c, HTKLib/HLM.h,
+	  HTKLib/HLabel.c, HTKLib/HLabel.h, HTKLib/HModel.c,
+	  HTKLib/HParm.c, HTKLib/HTrain.h, HTKLib/HUtil.h, HTKLib/HWave.h,
+	  HTKLib/esig_edr.c, HTKLib/esignal.c, HTKLib/esignal.h,
+	  HTKLib/strarr.c, HTKLib/strarr.h, HTKLib/HAdapt.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HExactMPE.h, HTKLib/HFB.c,
+	  HTKLib/HFB.h, HTKLib/HFBLat.c, HTKLib/HFBLat.h, HTKLib/HGen.c,
+	  HTKLib/HGen.h, HTKLib/HGraf.h, HTKLib/HGraf_WIN32.c,
+	  HTKLib/HLat.c, HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h,
+	  HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h,
+	  HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HNet.h, HTKLib/HParm.h,
+	  HTKLib/HRec.c, HTKLib/HRec.h, HTKLib/HShell.c, HTKLib/HSigP.c,
+	  HTKLib/HSigP.h, HTKLib/HTrain.c, HTKLib/HUtil.c, HTKLib/HVQ.c,
+	  HTKLib/HVQ.h, HTKLib/HWave.c, HTKLib/Makefile.in,
+	  HTKLib/esig_asc.c, HTKLib/esig_nat.c, HTKLib/HArc.c,
+	  HTKLib/HArc.h, HTKLib/HExactMPE.c, HTKLib/HShell.h,
+	  HTKTools/HCluster.c, HTKTools/HHEd.c, HTKTools/HLEd.c,
+	  HTKTools/HLRescore.c, HTKTools/HLStats.c, HTKTools/HList.c,
+	  HTKTools/HMMIRest.c, HTKTools/HParse.c, HTKTools/HQuant.c,
+	  HTKTools/HSmooth.c, HTKTools/HVite.c, Makefile.in,
+	  HTKLVRec/HDecode.c, HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c,
+	  HTKLVRec/HLVLM.h, HTKLVRec/HLVModel.c, HTKLVRec/HLVModel.h,
+	  HTKLVRec/HLVNet.c, HTKLVRec/HLVNet.h, HTKLVRec/HLVRec-GC.c,
+	  HTKLVRec/HLVRec-LM.c, HTKLVRec/HLVRec-misc.c,
+	  HTKLVRec/HLVRec-outP.c, HTKLVRec/HLVRec-propagate.c,
+	  HTKLVRec/HLVRec-traceback.c, HTKLVRec/HLVRec.c,
+	  HTKLVRec/HLVRec.h, HTKLVRec/config.h, HTKTools/HBuild.c,
+	  HTKTools/HCompV.c, HTKTools/HCopy.c, HTKTools/HDMan.c,
+	  HTKTools/HERest.c, HTKTools/HInit.c, HTKTools/HMGenS.c,
+	  HTKTools/HRest.c, HTKTools/HResults.c, HTKTools/HSGen.c,
+	  HTKTools/HSLab.c, HTKTools/Makefile.in:
+
+	  * Update license
+
+2006-12-29 12:26  zen
+
+	* HTKLib/HModel.c, HTKLib/HNet.c, HTKLib/HParm.c, HTKLib/HShell.c,
+	  HTKLib/esignal.h, HTKTools/HDMan.c, HTKTools/HMMIRest.c,
+	  HTKTools/HRest.c, HTKTools/HVite.c, HTKTools/HBuild.c,
+	  HTKTools/HCopy.c, HTKTools/HERest.c, HTKTools/HHEd.c,
+	  HTKTools/HInit.c, HTKTools/HLEd.c, HTKTools/HLRescore.c,
+	  HTKTools/HList.c, HTKTools/HParse.c, HTKTools/HResults.c,
+	  HTKTools/HSLab.c, HTKTools/HSmooth.c:
+
+	  Avoid icc warning.
+
+2006-12-29 12:25  zen
+
+	* HTKLib/.cvsignore: Add HTKLib.lv.a
+
+2006-12-28 21:07  zen
+
+	* HTKTools/HHEd.c: Ignore #components when components in this node
+	  are not pure.
+
+2006-12-28 19:59  zen
+
+	* configure, configure.ac: Add -I/usr/include/malloc to for darwin
+	  part of configure.ac.
+
+2006-12-27 19:19  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HGen.c, HTKTools/HHEd.c: Remove register
+	  variables.
+
+2006-12-27 19:18  zen
+
+	* configure.ac: Use -m32 if CC=gcc*.
+
+2006-12-27 18:38  zen
+
+	* HTKTools/: HERest.c, HHEd.c, HVite.c: Fix HTK license: 2002 ->
+	  2002-2004
+
+2006-12-27 18:37  zen
+
+	* HTKTools/htk_htktools_nt.mkf, HTKLib/htk_htklib_nt.mkf: Fix CRLF
+
+2006-12-27 18:35  zen
+
+	* configure, configure.ac: disable HLMTools by default.
+
+2006-12-27 18:34  zen
+
+	* README: HTK-3.4 alpha -> HTK-3.4
+
+2006-12-27 15:21  zen
+
+	* HTKLib/HAdapt.c: Add if (xfInfo!=NULL) in InitAdapt.
+
+2006-12-27 15:20  zen
+
+	* HTKTools/HHEd.c: Support parent/adapt xforms for model
+	  conversion.
+
+2006-12-27 13:01  zen
+
+	* HTKLib/Makefile: [no log message]
+
+2006-12-27 01:21  zen
+
+	* HTKLib/HModel.h: Fix bugs.
+
+2006-12-27 01:21  zen
+
+	* HTKTools/HHEd.c: Load AdaptXForm command.
+
+2006-12-26 19:19  zen
+
+	* HLMTools/.cvsignore: [no log message]
+
+2006-12-26 19:17  zen
+
+	* HTKTools/.cvsignore, HTKLVRec/.cvsignore, HTKLib/.cvsignore,
+	  HLMLib/.cvsignore, .cvsignore: add miscelaneous files.
+
+2006-12-26 19:12  zen
+
+	* configure, configure.ac: Include checks suggested by autoscan.
+
+2006-12-26 18:30  zen
+
+	* .cvsignore: Add autom4te.cache
+
+2006-12-26 18:30  zen
+
+	* .cvsignore: Add .cdtproject
+
+2006-12-26 14:16  zen
+
+	* HTKTools/HHEd.c: BuildRegCluster
+
+	  # of terminal nodes for each stream should be controlled by
+	  nTerminals
+
+2006-12-25 17:00  zen
+
+	* configure, configure.ac, HLMLib/Makefile.in, HTKLib/Makefile.in:
+	  Command "ar" should be able to be given.
+
+2006-12-25 16:50  zen
+
+	* HTKTools/HERest.c: Fix a bug.
+
+2006-12-25 16:32  zen
+
+	* configure, configure.ac:
+	  Add strdup to AC_CHECK_FUNCS
+
+2006-12-25 15:53  zen
+
+	* configure, configure.ac:
+	  Correct Copyright from "HTS Working Group" to "Nagoya Institute
+	  of Technology and Tokyo Institute of Technology"
+
+2006-12-25 15:50  zen
+
+	* HTKLVRec/: HLVLM.c, HLVRec-traceback.c, Makefile.in:
+	  Modify to remove gcc4 warnings.
+
+2006-12-25 15:49  zen
+
+	* HTKLib/ChangeLog.CUHTK, HTKLib/HAdapt.h, HTKLib/HFBLat.c,
+	  HTKLib/HGen.c, HTKLib/HLabel.c, HTKLib/HLat.c, HTKLib/HModel.h,
+	  HTKLib/HParm.c, HTKLib/HTrain.c, HTKLib/HUtil.c,
+	  HTKLib/Makefile.in, HTKLib/esig_edr.c, HTKLib/htk_htklib_nt.mkf,
+	  HTKLib/HAdapt.c, HTKLib/HFB.c, HTKLib/HModel.c, HTKLib/HTrain.h,
+	  HTKTools/ChangeLog.CUHTK, HTKTools/HCluster.c, HTKTools/HCompV.c,
+	  HTKTools/HDMan.c, HTKTools/HERest.c, HTKTools/HHEd.c,
+	  HTKTools/HMGenS.c, HTKTools/HMMIRest.c, HTKTools/HResults.c,
+	  HTKTools/HVite.c, HTKTools/Makefile.icc, HTKTools/Makefile.in:
+	  Update from HTK-3.4-alpha to HTK-3.4 release.
+
+2006-12-14 20:58  zen
+
+	* HTKLVRec/: HDecode-license.txt, HLVLM.c, HLVRec-traceback.c,
+	  Makefile.in, config.h, config.mod.h, config.orig.h:
+	  Update from HTK-3.4-alpha to HTK-3.4 release.
+
+2006-12-14 17:20  zen
+
+	* FAQ, Makefile.in, configure.ac:
+	  Update from HTK-3.4-alpha to HTK-3.4 release.
+
+2006-12-14 17:12  zen
+
+	* HTKBook/: ChangeLog, HTK.tex, Makefile, Makefile.in, adapt.tex,
+	  config.tex, decode.tex, exampsys.tex, htkbook.out, htkbook.tex,
+	  htkoview.tex, latex2html-init, log, models.tex, openviron.tex,
+	  refine.tex, speechio.tex, train.tex, HTKRef/HCopy.tex,
+	  HTKRef/HDecode.tex, HTKRef/HEAdapt.tex, HTKRef/HERest.tex,
+	  HTKRef/HHEd.tex, HTKRef/HLRescore.tex:
+	  Update from HTK-3.4-alpha to HTK-3.4 release.
+
+2006-12-12 20:08  zen
+
+	* Makefile.in, configure, configure.ac:
+	  Integrate configure for hts_engine into configure of HTK (HTS).
+
+2006-12-12 20:07  zen
+
+	* HTKTools/HHEd.c:
+	  Support min occ threshold for tree-based clustering.
+
+2006-12-12 20:05  zen
+
+	* HTKLib/HGen.c:
+	  SetStateSequence
+
+	  Variable "n" should be reset for every "j".
+
+2006-12-12 20:01  zen
+
+	* HTKLib/HAdapt.c:
+	  Remove unused vairables/functions.
+
+2006-12-11 15:56  zen
+
+	* HTKTools/HMGenS.c:
+	  Generator
+
+	  Do not output state durations if -s option is specified.
+
+2006-12-04 17:10  zen
+
+	* .cvsignore: [no log message]
+
+2006-12-04 15:22  zen
+
+	* HTKTools/HHEd.c: ConvertModelsCommand
+
+	  * Support FULLC
+
+2006-12-04 15:13  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h: Speeding up CMLLR and MLLRCOV
+
+2006-12-01 00:25  zen
+
+	* HTKLib/HModel.c: [no log message]
+
+2006-12-01 00:13  zen
+
+	* HTKTools/HHEd.c: Just remove spaces.
+
+2006-12-01 00:11  zen
+
+	* HTKLib/HModel.c: [no log message]
+
+2006-11-30 21:08  zen
+
+	* HTKLib/: HAdapt.c, HModel.c, HModel.h: GetStreamClass
+
+	  * Store stream of each baseclass in bclass->stream because this
+	  is computationally expensive.
+
+	  GetRegTree
+
+	  * Store nodes in rtree->nodes (ILink) and use it for FindNode to
+	  avoid recursive process.
+
+2006-11-30 11:36  zen
+
+	* HTKTools/HMGenS.c: WriteParms
+
+	    fix a bug.
+	    Use WriteFloat instead of WriteVector.
+
+2006-11-30 01:42  zen
+
+	* HTKTools/HHEd.c: AverageDistance
+
+	    return LZERO if vSize is equal to 0
+
+2006-11-10 17:21  zen
+
+	* HTKTools/HHEd.c: * Initialize variable c to NULL in LoadQuestion.
+
+2006-11-10 17:17  zen
+
+	* HTKTools/HHEd.c: * Fix a bug in ConvertTrees.
+
+2006-11-10 17:11  zen
+
+	* HTKTools/HHEd.c: * remove unsused variables in DupState.
+
+2006-11-09 18:36  zen
+
+	* HTKLib/: HGen.c, HGen.h: * Change ParmGenType for EM from 'EM' to
+	  'FB'.
+
+2006-11-09 18:18  zen
+
+	* HTKTools/HMGenS.c: * Change use input xform option from '-k'
+	  (HVite style) to '-a'  (HERest style).  * Add model alignment
+	  pruning using '-e' option.
+
+2006-11-09 18:14  zen
+
+	* HTKTools/HERest.c: * Update ReporUsage message.
+
+2006-11-09 18:09  zen
+
+	* HTKTools/HHEd.c: * Fix bug in ValidProbNode.	* Remove singleTree
+	  check from ConvertTrees/ConvertModels.  * Add strict model
+	  structure checking to ConvertTrees/ConvertModels.
+
+2006-11-09 03:43  zen
+
+	* HTKLib/HGen.c, HTKLib/HGen.h, HTKTools/HMGenS.c: * Change usage
+	  of -c option for HMGenS:  1--CHOLESKY   2--MIX  3--FB
+
+2006-11-09 03:35  zen
+
+	* HTKLib/HAdapt.c: * fix small bug.
+
+2006-11-09 03:21  zen
+
+	* HTKLib/HAdapt.c: * Fix ApplyCompFXForm related functions to
+	  support general MSD observations.
+
+2006-11-09 03:19  zen
+
+	* HTKTools/HHEd.c: * Fix bugs in DupState & DupStream.
+
+2006-11-09 02:49  zen
+
+	* HTKTools/HERest.c: * Set applyVFloor=TRUE when minimum variance
+	  value is specified by '-v' option.
+
+2006-11-07 13:21  zen
+
+	* HTKLib/HGen.c: * Fix segmentation fault when FBUtt is failed.
+
+2006-11-07 13:20  zen
+
+	* HTKTools/HMGenS.c: * Add options for pruning, hmmDir, dmDir,
+	  dmDir, and dmExt.
+
+2006-11-07 12:44  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HAdapt.h, HTKLib/HModel.c,
+	  HTKLib/HModel.h, HTKTools/HERest.c: * Support parent XForm for
+	  alignment hset.
+
+2006-11-05 18:03  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h: * Change type of the first argument
+	  of AccAdaptFrame from float to double
+
+2006-11-05 12:48  zen
+
+	* HTKTools/HHEd.c: * Check baseId of each tree includes pattern
+	  character (should not include when -p option is not used)
+
+2006-11-05 12:40  zen
+
+	* HTKTools/HMGenS.c: * SentenceModel -> GenInfo * Add a command
+	  line option to handle parent XForm
+
+2006-11-05 12:39  zen
+
+	* HTKLib/: HGen.c, HGen.h: * Remove unused functions *
+	  SentenceModel -> GenInfo
+
+2006-11-04 00:27  zen
+
+	* HTKLib/HAdapt.c: * Remove stream index check in
+	  UpdateBaseAccsWithPaac.
+
+2006-11-03 17:51  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HModel.c,
+	  HTKLib/HParm.c, HTKLib/HTrain.c, HTKLib/HWave.c,
+	  HTKLib/HExactMPE.c, HTKLib/HRec.c, HTKTools/HMGenS.c: * Support
+	  gcc4
+
+2006-11-02 16:57  zen
+
+	* HTKTools/HHEd.c: * ReportUsage: remove version tag
+
+2006-11-02 16:53  zen
+
+	* HTKTools/HMGenS.c: * Initialise: Load different list file for
+	  HMMs and duration models.
+
+2006-11-02 16:52  zen
+
+	* HTKLib/HGen.c: * SetStateSequence: T_TOP -> T_STA
+
+2006-11-01 15:33  zen
+
+	* HTKTools/HVite.c: * Check adaptation setup.
+
+2006-11-01 15:32  zen
+
+	* HTKTools/HRest.c: * Avoid warnings when icc is used.
+
+2006-11-01 15:32  zen
+
+	* HTKTools/HMGenS.c: * Change interface of HMGenS from HHEd style
+	  to HERest one.
+
+2006-11-01 15:31  zen
+
+	* HTKTools/HHEd.c: * GetCentroidStr: fix gConst.  *
+	  ConvertModelsCommand: check hset setting is valid for conversion.
+	  * Avoid warnings when icc is used.
+
+2006-11-01 15:29  zen
+
+	* HTKTools/HERest.c: * Check adaptation setting.
+
+2006-11-01 15:26  zen
+
+	* HTKLib/: HLabel.c, HShell.c, HUtil.c, HMap.c, HTrain.c: * Avoid
+	  warnings when icc is used.
+
+2006-11-01 15:25  zen
+
+	* HTKLib/HModel.c: * GetBaseClasses: create swidth array when
+	  <STREAMINFO> is not specified.  * Avoid warnings when icc is
+	  used.
+
+2006-11-01 15:23  zen
+
+	* HTKLib/: HMem.c, HMem.h: * Add double tri matrix related
+	  functions.  * Avoid warnings when icc is used.
+
+2006-11-01 15:21  zen
+
+	* HTKLib/: HMath.c, HMath.h: * Add double tri matrix related
+	  functions.
+
+2006-11-01 15:20  zen
+
+	* HTKLib/HParm.c: * Comment out including sys/ioctl.h because it is
+	  loaded in HShell.h.
+
+2006-11-01 15:19  zen
+
+	* HTKLib/HGraf.c: * Avoid warnings when icc is used.
+
+2006-11-01 15:18  zen
+
+	* HTKLib/HGen.c: * SetStateSequence: Add trace about determined
+	  state sequence.  * SentenceProb: Set output prob of given
+	  sentence to utt->pr.
+
+2006-11-01 15:17  zen
+
+	* HTKLib/HFBLat.c: * Avoid warnings when icc is used.  * Stream
+	  index is passed to AccAdaptFrame.
+
+2006-11-01 15:16  zen
+
+	* HTKLib/HFB.c: * Initialize xform links in fbInfo to NULL.  *
+	  Avoid warnings when icc is used.  * Stream index is passed to
+	  AccAdaptFrame.
+
+2006-11-01 15:13  zen
+
+	* HTKLib/: HAudio.c, HExactMPE.c: * Avoid warning when Intel C
+	  compiler is used.
+
+2006-11-01 15:12  zen
+
+	* HTKLib/: HAdapt.c, HAdapt.h: * Implement saving adapted mmf in
+	  FULLC form.  * Fix a bug in UpdateBaseAccs.  * Check blocksize
+	  consistency by CheckAdaptSetUp.
+
+2006-10-24 20:00  zen
+
+	* HTKLib/HGen.c, HTKLib/HGen.h, HTKTools/HMGenS.c: Implement
+	  several functions.
+
+2006-10-17 16:19  zen
+
+	* HTKLib/HModel.h: RegAcc: store nodeOcc in double.
+
+2006-10-16 17:41  zen
+
+	* HTKLib/HAdapt.c: AccAdaptFrame: use model vecsize instead of obs
+	  vecsize CompFXForm: check spaceorder.  SetOcc: use double.
+
+2006-10-15 16:32  zen
+
+	* HTKLib/HAdapt.c: Support setting different threshold and block
+	  structure for each stream
+
+2006-10-15 16:31  zen
+
+	* HTKLib/: HModel.c, HModel.h: RegTree: add stream index to RegTree
+
+2006-10-15 16:25  zen
+
+	* HTKTools/HHEd.c: SynthModel: state and stream sharing structure
+	  is not correctly handled.
+
+2006-10-09 21:23  zen
+
+	* HTKTools/HMGenS.c: Support mixture-hidden paramter generation.
+
+2006-10-09 21:21  zen
+
+	* HTKTools/HHEd.c: Fix a bug in decision tree -> regression tree
+	  conversion.
+
+	  si->weights are not initialized in AssignStructure.
+
+2006-10-09 21:19  zen
+
+	* HTKLib/: HGen.c, HGen.h: Implement mixture-hidden parameter
+	  generation algorithm.
+
+2006-10-09 21:18  zen
+
+	* HTKLib/HAdapt.c: Fix CMLLR and MLLRCOV.
+
+2006-10-04 01:26  zen
+
+	* HTKLib/HModel.c: [no log message]
+
+2006-10-04 00:00  zen
+
+	* HTKTools/HMGenS.c: Generator: show output prob. of generated
+	  param. sequence.
+
+2006-10-03 23:57  zen
+
+	* HTKTools/HHEd.c: FindProtoModel: support usePattern and
+	  singleTree.
+
+2006-10-03 23:56  zen
+
+	* HTKTools/HERest.c: Initialise: remove ApplyVFloor
+
+2006-10-03 23:55  zen
+
+	* HTKLib/HUtil.c: EndHMMScan: reset hss->si, hss->sti, and hss->mp
+
+2006-10-03 23:53  zen
+
+	* HTKLib/HShell.c: [no log message]
+
+2006-10-03 23:53  zen
+
+	* HTKLib/HModel.c: CheckMix: add !mf to Full Covariances.
+	  CheckOptions: add check about consistency between VecSize and
+	  StreamInfo
+
+2006-10-03 23:51  zen
+
+	* HTKLib/HGen.c: Support random generation
+
+2006-10-03 23:50  zen
+
+	* HTKLib/HGen.h: Add UpdateObservations
+
+2006-10-03 23:49  zen
+
+	* HTKLib/HFB.c: SetAlignBeam: fix start frame handling.
+
+2006-10-03 12:51  zen
+
+	* HTKLib/Makefile: [no log message]
+
+2006-10-03 02:06  zen
+
+	* HTKTools/HMGenS.c: [no log message]
+
+2006-10-03 01:09  zen
+
+	* HTKTools/HMGenS.c: [no log message]
+
+2006-10-03 00:53  zen
+
+	* HTKTools/HMGenS.c: [no log message]
+
+2006-10-03 00:32  zen
+
+	* HTKTools/HMGenS.c: [no log message]
+
+2006-10-02 19:51  zen
+
+	* HTKTools/HMGenS.c: SenteceModel
+
+2006-10-02 19:51  zen
+
+	* HTKLib/: HGen.c, HGen.h: Add SentenceModel
+
+2006-10-02 19:50  zen
+
+	* HTKLib/: HTrain.c, HTrain.h: Add ResetWtAccs
+
+2006-10-02 19:49  zen
+
+	* HTKLib/HFB.c: CreateInsts: add ResetWtAcc to reset stream-level
+	  cache.
+
+2006-10-02 19:48  zen
+
+	* HTKLib/: HMath.c, HMath.h: Add IMatrix related functions.
+
+2006-10-01 22:40  zen
+
+	* HTKTools/HHEd.c: [no log message]
+
+2006-08-03 13:20  zen
+
+	* HTKLib/HGen.c, HTKTools/HMGenS.c: [no log message]
+
+2006-07-01 15:28  zen
+
+	* HTKLib/HModel.c, HTKLib/HShell.c, HTKLib/HUtil.c, HTKLib/HUtil.h,
+	  HTKTools/HHEd.c, HTKTools/HMGenS.c: Implement Dec2Reg in HHEd.c
+
+2006-06-27 21:21  zen
+
+	* HTKLib/HAdapt.c, HTKLib/HModel.h, HTKTools/HERest.c,
+	  HTKTools/HHEd.c, HTKTools/HMGenS.c, HTKLib/HModel.c: Implement
+	  speaker adaptation for MSD-HMM; Integrate HMGenS_align to HMGenS;
+	  Many bug fixes;
+
+2006-06-24 12:05  zen
+
+	* HTKTools/HHEd.c: [no log message]
+
+2006-06-23 16:41  zen
+
+	* HTKTools/HMGenS.c, HTKLib/HFB.c, HTKLib/HModel.c, HTKLib/HUtil.c,
+	  HTKTools/HERest.c, HTKTools/HHEd.c: Debug a number of bugs.
+
+	  HHEd.c:	  HMM-level clustering.   Output stream info in
+	  regression tree/base.
+
+	  HFB.c:	  Stream-level output probability caching.
+
+	  HUtil.c:	  Fix bugs
+
+	  HModel.{c,h}:   Fix bugs
+
+	  HMGenS.c	  Fix bugs
+
+2006-06-20 21:03  zen
+
+	* HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFBLat.c, HTKLib/HFBLat.h,
+	  HTKLib/HShell.c, HTKLib/HTrain.c, HTKLib/HUtil.c,
+	  HTKTools/HMMIRest.c, HTKTools/HHEd.c, HTKLVRec/ChangeLog,
+	  HTKLVRec/HDecode.c, HTKLVRec/HDecode.mod.c, HTKLVRec/HLVLM.c,
+	  HTKLVRec/HLVLM.h, HTKLVRec/HLVModel.c, HTKLVRec/HLVModel.h,
+	  HTKLVRec/HLVNet.c, HTKLVRec/HLVNet.h, HTKLVRec/HLVRec-GC.c,
+	  HTKLVRec/HLVRec-LM.c, HTKLVRec/HLVRec-misc.c,
+	  HTKLVRec/HLVRec-outP.c, HTKLVRec/HLVRec-propagate.c,
+	  HTKLVRec/HLVRec-traceback.c, HTKLVRec/HLVRec.c,
+	  HTKLVRec/HLVRec.h, HTKLVRec/Makefile.icc, HTKLVRec/Makefile.in,
+	  HTKLVRec/config.orig.h, HTKLVRec/config.mod.h, HTKLVRec/config.h:
+	  [no log message]
+
+2006-06-20 13:49  zen
+
+	* .project, AUTHORS, ChangeLog, FAQ, LICENSE, Makefile.in, README,
+	  config.guess, config.sub, configure, configure.ac, install-sh,
+	  HLMLib/ChangeLog, HLMLib/LCMap.c, HLMLib/LCMap.h,
+	  HLMLib/LGBase.c, HLMLib/LGBase.h, HLMLib/LModel.c,
+	  HLMLib/LModel.h, HLMLib/LPCalc.c, HLMLib/LPCalc.h,
+	  HLMLib/LPMerge.c, HLMLib/LPMerge.h, HLMLib/LUtil.c,
+	  HLMLib/LUtil.h, HLMLib/LWMap.c, HLMLib/LWMap.h,
+	  HLMLib/Makefile.in, HLMLib/htk_hlmlib_nt.mkf, HLMTools/ChangeLog,
+	  HLMTools/Cluster.c, HLMTools/HLMCopy.c, HLMTools/LAdapt.c,
+	  HLMTools/LBuild.c, HLMTools/LFoF.c, HLMTools/LGCopy.c,
+	  HLMTools/LGList.c, HLMTools/LGPrep.c, HLMTools/LLink.c,
+	  HLMTools/LMerge.c, HLMTools/LNewMap.c, HLMTools/LNorm.c,
+	  HLMTools/LPlex.c, HLMTools/LSubset.c, HLMTools/Makefile.in,
+	  HLMTools/htk_hlmtools_nt.mkf, HTK/HTK.dsp, HTK/HTK.dsw,
+	  HTK/HTK.ncb, HTK/HTK.opt, HTKBook/ChangeLog,
+	  HTKBook/ChangeLog.CUHTK, HTKBook/HTK.tex, HTKBook/Makefile,
+	  HTKBook/Makefile.in, HTKBook/README, HTKBook/adapt.tex,
+	  HTKBook/config.tex, HTKBook/decode.tex, HTKBook/discmods.tex,
+	  HTKBook/errors.tex, HTKBook/exampsys.tex, HTKBook/fundaments.tex,
+	  HTKBook/hlmfiles.tex, HTKBook/hlmfund.tex,
+	  HTKBook/hlmtutorial.tex, HTKBook/htkbook.out,
+	  HTKBook/htkbook.tex, HTKBook/htkoview.tex, HTKBook/htkslf.tex,
+	  HTKBook/labels.tex, HTKBook/models.tex, HTKBook/netdict.tex,
+	  HTKBook/openviron.tex, HTKBook/refine.tex, HTKBook/speechio.tex,
+	  HTKBook/train.tex, HTKLVRec/HDecode-license.txt, HTKLVRec/README,
+	  HTKLib/ChangeLog, HTKLib/HAdapt.c, HTKLib/HAdapt.h,
+	  HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HAudio.c, HTKLib/HAudio.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HFBLat.c,
+	  HTKLib/HFBLat.h, HTKLib/HGen.c, HTKLib/HGen.h, HTKLib/HGraf.c,
+	  HTKLib/HGraf.h, HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c,
+	  HTKLib/HLM.c, HTKLib/HLM.h, HTKLib/HLabel.c, HTKLib/HLabel.h,
+	  HTKLib/HLat.c, HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h,
+	  HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h,
+	  HTKLib/HModel.c, HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HNet.h,
+	  HTKLib/HParm.c, HTKLib/HParm.h, HTKLib/HRec.c, HTKLib/HRec.h,
+	  HTKLib/HShell.c, HTKLib/HShell.h, HTKLib/HSigP.c, HTKLib/HSigP.h,
+	  HTKLib/HTrain.c, HTKLib/HTrain.h, HTKLib/HUtil.c, HTKLib/HUtil.h,
+	  HTKLib/HVQ.c, HTKLib/HVQ.h, HTKLib/HWave.c, HTKLib/HWave.h,
+	  HTKLib/Makefile.in, HTKLib/esig_asc.c, HTKLib/esig_edr.c,
+	  HTKLib/esig_nat.c, HTKLib/esignal.c, HTKLib/esignal.h,
+	  HTKLib/htk_htklib_nt.mkf, HTKLib/strarr.c, HTKLib/strarr.h,
+	  HTKTools/ChangeLog, HTKTools/HBuild.c, HTKTools/HCompV.c,
+	  HTKTools/HCopy.c, HTKTools/HDMan.c, HTKTools/HERest.c,
+	  HTKTools/HHEd.c, HTKTools/HInit.c, HTKTools/HLEd.c,
+	  HTKTools/HLRescore.c, HTKTools/HLStats.c, HTKTools/HList.c,
+	  HTKTools/HMGenS.c, HTKTools/HMMIRest.c, HTKTools/HParse.c,
+	  HTKTools/HQuant.c, HTKTools/HRest.c, HTKTools/HResults.c,
+	  HTKTools/HSGen.c, HTKTools/HSLab.c, HTKTools/HSmooth.c,
+	  HTKTools/HVite.c, HTKTools/Makefile.in,
+	  HTKTools/htk_htktools_nt.mkf, env/ChangeLog,
+	  env/env.decosf_alpha, env/env.hp700, env/env.linux,
+	  env/env.linux-icc8-P4, env/env.sgi, env/env.sun4_solaris,
+	  env/env.sun4_solaris_cc, env/env.sun4_solaris_gcc,
+	  env/exp.decosf_alpha, env/exp.hp700, env/exp.linux,
+	  env/exp.linux-dec, env/exp.linux-icc7-P4, env/exp.linux-icc8-P4,
+	  env/exp.linux_icc, env/exp.sgi, env/exp.sun4_solaris,
+	  env/exp.sun4_solaris_cc, env/exp.sun4_solaris_gcc,
+	  HTKBook/HTKFigs/Blocking.eps, HTKBook/HTKFigs/ClassLM.eps,
+	  HTKBook/HTKFigs/Config.eps, HTKBook/HTKFigs/HLMoperation.eps,
+	  HTKBook/HTKFigs/HTKFormat.eps, HTKBook/HTKFigs/LTool.eps,
+	  HTKBook/HTKFigs/MMFeg.eps, HTKBook/HTKFigs/Spmods.eps,
+	  HTKBook/HTKFigs/Tool.decode.eps, HTKBook/HTKFigs/Tool.disc.eps,
+	  HTKBook/HTKFigs/Tool.hedit.eps, HTKBook/HTKFigs/Tool.labs.eps,
+	  HTKBook/HTKFigs/Tool.langmod.eps, HTKBook/HTKFigs/Tool.model.eps,
+	  HTKBook/HTKFigs/Tool.netdict.eps, HTKBook/HTKFigs/Tool.shell.eps,
+	  HTKBook/HTKFigs/Tool.spio.eps, HTKBook/HTKFigs/Tool.train.eps,
+	  HTKBook/HTKFigs/VQUse.eps, HTKBook/HTKFigs/WordLM.eps,
+	  HTKBook/HTKFigs/bmemops.eps, HTKBook/HTKFigs/bobig.eps,
+	  HTKBook/HTKFigs/clusterset.eps, HTKBook/HTKFigs/coercions.eps,
+	  HTKBook/HTKFigs/cover.eps, HTKBook/HTKFigs/dbhier.eps,
+	  HTKBook/HTKFigs/decflow.eps, HTKBook/HTKFigs/decinet.eps,
+	  HTKBook/HTKFigs/dialnet.eps, HTKBook/HTKFigs/digitnets.eps,
+	  HTKBook/HTKFigs/dmaker.eps, HTKBook/HTKFigs/egsils.eps,
+	  HTKBook/HTKFigs/egtranstie.eps, HTKBook/HTKFigs/endpointer.eps,
+	  HTKBook/HTKFigs/flatst.eps, HTKBook/HTKFigs/headapt.eps,
+	  HTKBook/HTKFigs/headaptrdp.eps, HTKBook/HTKFigs/herestdp.eps,
+	  HTKBook/HTKFigs/hierarch.eps, HTKBook/HTKFigs/hinitdp.eps,
+	  HTKBook/HTKFigs/hmm1.eps, HTKBook/HTKFigs/hsetdef.eps,
+	  HTKBook/HTKFigs/hslab.eps, HTKBook/HTKFigs/htktools.eps,
+	  HTKBook/HTKFigs/hvalign.eps, HTKBook/HTKFigs/isoprob.eps,
+	  HTKBook/HTKFigs/isoword.eps, HTKBook/HTKFigs/itemtree.eps,
+	  HTKBook/HTKFigs/labegs.eps, HTKBook/HTKFigs/markovgen.eps,
+	  HTKBook/HTKFigs/melfbank.eps, HTKBook/HTKFigs/memheap.eps,
+	  HTKBook/HTKFigs/messencode.eps, HTKBook/HTKFigs/mononet.eps,
+	  HTKBook/HTKFigs/muacc.eps, HTKBook/HTKFigs/netforcsr.eps,
+	  HTKBook/HTKFigs/overview.eps, HTKBook/HTKFigs/parher.eps,
+	  HTKBook/HTKFigs/qstree.eps, HTKBook/HTKFigs/recipe.eps,
+	  HTKBook/HTKFigs/recnetlev.eps, HTKBook/HTKFigs/recsys.eps,
+	  HTKBook/HTKFigs/regtree1.eps, HTKBook/HTKFigs/restloop.eps,
+	  HTKBook/HTKFigs/segstore.eps, HTKBook/HTKFigs/sequence.eps,
+	  HTKBook/HTKFigs/softarch.eps, HTKBook/HTKFigs/step1.eps,
+	  HTKBook/HTKFigs/step10.eps, HTKBook/HTKFigs/step11.eps,
+	  HTKBook/HTKFigs/step2.eps, HTKBook/HTKFigs/step3.eps,
+	  HTKBook/HTKFigs/step4.eps, HTKBook/HTKFigs/step5.eps,
+	  HTKBook/HTKFigs/step6.eps, HTKBook/HTKFigs/step7.eps,
+	  HTKBook/HTKFigs/step8.eps, HTKBook/HTKFigs/step9.eps,
+	  HTKBook/HTKFigs/streams.eps, HTKBook/HTKFigs/structshare.eps,
+	  HTKBook/HTKFigs/subsmixrep.eps, HTKBook/HTKFigs/subword.eps,
+	  HTKBook/HTKFigs/sysoview.eps, HTKBook/HTKFigs/tcover.eps,
+	  HTKBook/HTKFigs/tiedstate.eps, HTKBook/HTKFigs/tmixeg.eps,
+	  HTKBook/HTKFigs/toolkit.eps, HTKBook/HTKFigs/tracc.eps,
+	  HTKBook/HTKFigs/tsubword.eps, HTKBook/HTKFigs/useforiso.eps,
+	  HTKBook/HTKFigs/vaacc.eps, HTKBook/HTKFigs/vitloop.eps,
+	  HTKBook/HTKFigs/vmatrep.eps, HTKBook/HTKFigs/vqtohmm.eps,
+	  HTKBook/HTKFigs/vtlnpiecewise.eps, HTKBook/HTKFigs/vtrellis.eps,
+	  HTKBook/HTKFigs/wdnet.eps, HTKBook/HTKFigs/wdnet0.eps,
+	  HTKBook/HTKFigs/wdnet1.eps, HTKBook/HTKFigs/wintnet.eps,
+	  HTKBook/HTKFigs/wlroper.eps, HTKBook/HTKFigs/wtacc.eps,
+	  HTKBook/HTKFigs/xwrdnet.eps, HTKBook/HTKRef/Cluster.tex,
+	  HTKBook/HTKRef/HBuild.tex, HTKBook/HTKRef/HCompV.tex,
+	  HTKBook/HTKRef/HCopy.tex, HTKBook/HTKRef/HDMan.tex,
+	  HTKBook/HTKRef/HEAdapt.tex, HTKBook/HTKRef/HERest.tex,
+	  HTKBook/HTKRef/HHEd.tex, HTKBook/HTKRef/HInit.tex,
+	  HTKBook/HTKRef/HLEd.tex, HTKBook/HTKRef/HLMCopy.tex,
+	  HTKBook/HTKRef/HLRescore.tex, HTKBook/HTKRef/HLStats.tex,
+	  HTKBook/HTKRef/HList.tex, HTKBook/HTKRef/HMMIRest.tex,
+	  HTKBook/HTKRef/HParse.tex, HTKBook/HTKRef/HQuant.tex,
+	  HTKBook/HTKRef/HRest.tex, HTKBook/HTKRef/HResults.tex,
+	  HTKBook/HTKRef/HSGen.tex, HTKBook/HTKRef/HSLab.tex,
+	  HTKBook/HTKRef/HSmooth.tex, HTKBook/HTKRef/HVite.tex,
+	  HTKBook/HTKRef/LAdapt.tex, HTKBook/HTKRef/LBuild.tex,
+	  HTKBook/HTKRef/LFoF.tex, HTKBook/HTKRef/LGCopy.tex,
+	  HTKBook/HTKRef/LGList.tex, HTKBook/HTKRef/LGPrep.tex,
+	  HTKBook/HTKRef/LLink.tex, HTKBook/HTKRef/LMerge.tex,
+	  HTKBook/HTKRef/LNewMap.tex, HTKBook/HTKRef/LNorm.tex,
+	  HTKBook/HTKRef/LPlex.tex, HTKBook/HTKRef/LSubset.tex,
+	  HTKBook/HTKRef/tools.tex, HTKBook/HTKXFigs/ClassLM.doc,
+	  HTKBook/HTKXFigs/HLMoperation.doc, HTKBook/HTKXFigs/LTool.doc,
+	  HTKBook/HTKXFigs/Tool.labs.fig, HTKBook/HTKXFigs/Tool.model.fig,
+	  HTKBook/HTKXFigs/Tool.netdict.fig,
+	  HTKBook/HTKXFigs/Tool.shell.fig, HTKBook/HTKXFigs/Tool.spio.fig,
+	  HTKBook/HTKXFigs/WordLM.doc, HTKBook/HTKXFigs/cover.fig,
+	  HTKBook/HTKXFigs/headapt.fig, HTKBook/HTKXFigs/headaptrdp.fig,
+	  HTKBook/HTKXFigs/softarch-big.fig, HTKBook/HTKXFigs/softarch.fig,
+	  HTKBook/HTKXFigs/step10.fig, HTKBook/HTKXFigs/sysoview.fig,
+	  HTKBook/HTKXFigs/vtlnpiecewise.fig: HTS-2.0_for_HTK-3.4
+
+2006-06-20 13:49  zen
+
+	* .project, AUTHORS, ChangeLog, FAQ, LICENSE, Makefile.in, README,
+	  config.guess, config.sub, configure, configure.ac, install-sh,
+	  HLMLib/ChangeLog, HLMLib/LCMap.c, HLMLib/LCMap.h,
+	  HLMLib/LGBase.c, HLMLib/LGBase.h, HLMLib/LModel.c,
+	  HLMLib/LModel.h, HLMLib/LPCalc.c, HLMLib/LPCalc.h,
+	  HLMLib/LPMerge.c, HLMLib/LPMerge.h, HLMLib/LUtil.c,
+	  HLMLib/LUtil.h, HLMLib/LWMap.c, HLMLib/LWMap.h,
+	  HLMLib/Makefile.in, HLMLib/htk_hlmlib_nt.mkf, HLMTools/ChangeLog,
+	  HLMTools/Cluster.c, HLMTools/HLMCopy.c, HLMTools/LAdapt.c,
+	  HLMTools/LBuild.c, HLMTools/LFoF.c, HLMTools/LGCopy.c,
+	  HLMTools/LGList.c, HLMTools/LGPrep.c, HLMTools/LLink.c,
+	  HLMTools/LMerge.c, HLMTools/LNewMap.c, HLMTools/LNorm.c,
+	  HLMTools/LPlex.c, HLMTools/LSubset.c, HLMTools/Makefile.in,
+	  HLMTools/htk_hlmtools_nt.mkf, HTK/HTK.dsp, HTK/HTK.dsw,
+	  HTK/HTK.ncb, HTK/HTK.opt, HTKBook/ChangeLog,
+	  HTKBook/ChangeLog.CUHTK, HTKBook/HTK.tex, HTKBook/Makefile,
+	  HTKBook/Makefile.in, HTKBook/README, HTKBook/adapt.tex,
+	  HTKBook/config.tex, HTKBook/decode.tex, HTKBook/discmods.tex,
+	  HTKBook/errors.tex, HTKBook/exampsys.tex, HTKBook/fundaments.tex,
+	  HTKBook/hlmfiles.tex, HTKBook/hlmfund.tex,
+	  HTKBook/hlmtutorial.tex, HTKBook/htkbook.out,
+	  HTKBook/htkbook.tex, HTKBook/htkoview.tex, HTKBook/htkslf.tex,
+	  HTKBook/labels.tex, HTKBook/models.tex, HTKBook/netdict.tex,
+	  HTKBook/openviron.tex, HTKBook/refine.tex, HTKBook/speechio.tex,
+	  HTKBook/train.tex, HTKLVRec/HDecode-license.txt, HTKLVRec/README,
+	  HTKLib/ChangeLog, HTKLib/HAdapt.c, HTKLib/HAdapt.h,
+	  HTKLib/HArc.c, HTKLib/HArc.h, HTKLib/HAudio.c, HTKLib/HAudio.h,
+	  HTKLib/HDict.c, HTKLib/HDict.h, HTKLib/HExactMPE.c,
+	  HTKLib/HExactMPE.h, HTKLib/HFB.c, HTKLib/HFB.h, HTKLib/HFBLat.c,
+	  HTKLib/HFBLat.h, HTKLib/HGen.c, HTKLib/HGen.h, HTKLib/HGraf.c,
+	  HTKLib/HGraf.h, HTKLib/HGraf.null.c, HTKLib/HGraf_WIN32.c,
+	  HTKLib/HLM.c, HTKLib/HLM.h, HTKLib/HLabel.c, HTKLib/HLabel.h,
+	  HTKLib/HLat.c, HTKLib/HLat.h, HTKLib/HMap.c, HTKLib/HMap.h,
+	  HTKLib/HMath.c, HTKLib/HMath.h, HTKLib/HMem.c, HTKLib/HMem.h,
+	  HTKLib/HModel.c, HTKLib/HModel.h, HTKLib/HNet.c, HTKLib/HNet.h,
+	  HTKLib/HParm.c, HTKLib/HParm.h, HTKLib/HRec.c, HTKLib/HRec.h,
+	  HTKLib/HShell.c, HTKLib/HShell.h, HTKLib/HSigP.c, HTKLib/HSigP.h,
+	  HTKLib/HTrain.c, HTKLib/HTrain.h, HTKLib/HUtil.c, HTKLib/HUtil.h,
+	  HTKLib/HVQ.c, HTKLib/HVQ.h, HTKLib/HWave.c, HTKLib/HWave.h,
+	  HTKLib/Makefile.in, HTKLib/esig_asc.c, HTKLib/esig_edr.c,
+	  HTKLib/esig_nat.c, HTKLib/esignal.c, HTKLib/esignal.h,
+	  HTKLib/htk_htklib_nt.mkf, HTKLib/strarr.c, HTKLib/strarr.h,
+	  HTKTools/ChangeLog, HTKTools/HBuild.c, HTKTools/HCompV.c,
+	  HTKTools/HCopy.c, HTKTools/HDMan.c, HTKTools/HERest.c,
+	  HTKTools/HHEd.c, HTKTools/HInit.c, HTKTools/HLEd.c,
+	  HTKTools/HLRescore.c, HTKTools/HLStats.c, HTKTools/HList.c,
+	  HTKTools/HMGenS.c, HTKTools/HMMIRest.c, HTKTools/HParse.c,
+	  HTKTools/HQuant.c, HTKTools/HRest.c, HTKTools/HResults.c,
+	  HTKTools/HSGen.c, HTKTools/HSLab.c, HTKTools/HSmooth.c,
+	  HTKTools/HVite.c, HTKTools/Makefile.in,
+	  HTKTools/htk_htktools_nt.mkf, env/ChangeLog,
+	  env/env.decosf_alpha, env/env.hp700, env/env.linux,
+	  env/env.linux-icc8-P4, env/env.sgi, env/env.sun4_solaris,
+	  env/env.sun4_solaris_cc, env/env.sun4_solaris_gcc,
+	  env/exp.decosf_alpha, env/exp.hp700, env/exp.linux,
+	  env/exp.linux-dec, env/exp.linux-icc7-P4, env/exp.linux-icc8-P4,
+	  env/exp.linux_icc, env/exp.sgi, env/exp.sun4_solaris,
+	  env/exp.sun4_solaris_cc, env/exp.sun4_solaris_gcc,
+	  HTKBook/HTKFigs/Blocking.eps, HTKBook/HTKFigs/ClassLM.eps,
+	  HTKBook/HTKFigs/Config.eps, HTKBook/HTKFigs/HLMoperation.eps,
+	  HTKBook/HTKFigs/HTKFormat.eps, HTKBook/HTKFigs/LTool.eps,
+	  HTKBook/HTKFigs/MMFeg.eps, HTKBook/HTKFigs/Spmods.eps,
+	  HTKBook/HTKFigs/Tool.decode.eps, HTKBook/HTKFigs/Tool.disc.eps,
+	  HTKBook/HTKFigs/Tool.hedit.eps, HTKBook/HTKFigs/Tool.labs.eps,
+	  HTKBook/HTKFigs/Tool.langmod.eps, HTKBook/HTKFigs/Tool.model.eps,
+	  HTKBook/HTKFigs/Tool.netdict.eps, HTKBook/HTKFigs/Tool.shell.eps,
+	  HTKBook/HTKFigs/Tool.spio.eps, HTKBook/HTKFigs/Tool.train.eps,
+	  HTKBook/HTKFigs/VQUse.eps, HTKBook/HTKFigs/WordLM.eps,
+	  HTKBook/HTKFigs/bmemops.eps, HTKBook/HTKFigs/bobig.eps,
+	  HTKBook/HTKFigs/clusterset.eps, HTKBook/HTKFigs/coercions.eps,
+	  HTKBook/HTKFigs/cover.eps, HTKBook/HTKFigs/dbhier.eps,
+	  HTKBook/HTKFigs/decflow.eps, HTKBook/HTKFigs/decinet.eps,
+	  HTKBook/HTKFigs/dialnet.eps, HTKBook/HTKFigs/digitnets.eps,
+	  HTKBook/HTKFigs/dmaker.eps, HTKBook/HTKFigs/egsils.eps,
+	  HTKBook/HTKFigs/egtranstie.eps, HTKBook/HTKFigs/endpointer.eps,
+	  HTKBook/HTKFigs/flatst.eps, HTKBook/HTKFigs/headapt.eps,
+	  HTKBook/HTKFigs/headaptrdp.eps, HTKBook/HTKFigs/herestdp.eps,
+	  HTKBook/HTKFigs/hierarch.eps, HTKBook/HTKFigs/hinitdp.eps,
+	  HTKBook/HTKFigs/hmm1.eps, HTKBook/HTKFigs/hsetdef.eps,
+	  HTKBook/HTKFigs/hslab.eps, HTKBook/HTKFigs/htktools.eps,
+	  HTKBook/HTKFigs/hvalign.eps, HTKBook/HTKFigs/isoprob.eps,
+	  HTKBook/HTKFigs/isoword.eps, HTKBook/HTKFigs/itemtree.eps,
+	  HTKBook/HTKFigs/labegs.eps, HTKBook/HTKFigs/markovgen.eps,
+	  HTKBook/HTKFigs/melfbank.eps, HTKBook/HTKFigs/memheap.eps,
+	  HTKBook/HTKFigs/messencode.eps, HTKBook/HTKFigs/mononet.eps,
+	  HTKBook/HTKFigs/muacc.eps, HTKBook/HTKFigs/netforcsr.eps,
+	  HTKBook/HTKFigs/overview.eps, HTKBook/HTKFigs/parher.eps,
+	  HTKBook/HTKFigs/qstree.eps, HTKBook/HTKFigs/recipe.eps,
+	  HTKBook/HTKFigs/recnetlev.eps, HTKBook/HTKFigs/recsys.eps,
+	  HTKBook/HTKFigs/regtree1.eps, HTKBook/HTKFigs/restloop.eps,
+	  HTKBook/HTKFigs/segstore.eps, HTKBook/HTKFigs/sequence.eps,
+	  HTKBook/HTKFigs/softarch.eps, HTKBook/HTKFigs/step1.eps,
+	  HTKBook/HTKFigs/step10.eps, HTKBook/HTKFigs/step11.eps,
+	  HTKBook/HTKFigs/step2.eps, HTKBook/HTKFigs/step3.eps,
+	  HTKBook/HTKFigs/step4.eps, HTKBook/HTKFigs/step5.eps,
+	  HTKBook/HTKFigs/step6.eps, HTKBook/HTKFigs/step7.eps,
+	  HTKBook/HTKFigs/step8.eps, HTKBook/HTKFigs/step9.eps,
+	  HTKBook/HTKFigs/streams.eps, HTKBook/HTKFigs/structshare.eps,
+	  HTKBook/HTKFigs/subsmixrep.eps, HTKBook/HTKFigs/subword.eps,
+	  HTKBook/HTKFigs/sysoview.eps, HTKBook/HTKFigs/tcover.eps,
+	  HTKBook/HTKFigs/tiedstate.eps, HTKBook/HTKFigs/tmixeg.eps,
+	  HTKBook/HTKFigs/toolkit.eps, HTKBook/HTKFigs/tracc.eps,
+	  HTKBook/HTKFigs/tsubword.eps, HTKBook/HTKFigs/useforiso.eps,
+	  HTKBook/HTKFigs/vaacc.eps, HTKBook/HTKFigs/vitloop.eps,
+	  HTKBook/HTKFigs/vmatrep.eps, HTKBook/HTKFigs/vqtohmm.eps,
+	  HTKBook/HTKFigs/vtlnpiecewise.eps, HTKBook/HTKFigs/vtrellis.eps,
+	  HTKBook/HTKFigs/wdnet.eps, HTKBook/HTKFigs/wdnet0.eps,
+	  HTKBook/HTKFigs/wdnet1.eps, HTKBook/HTKFigs/wintnet.eps,
+	  HTKBook/HTKFigs/wlroper.eps, HTKBook/HTKFigs/wtacc.eps,
+	  HTKBook/HTKFigs/xwrdnet.eps, HTKBook/HTKRef/Cluster.tex,
+	  HTKBook/HTKRef/HBuild.tex, HTKBook/HTKRef/HCompV.tex,
+	  HTKBook/HTKRef/HCopy.tex, HTKBook/HTKRef/HDMan.tex,
+	  HTKBook/HTKRef/HEAdapt.tex, HTKBook/HTKRef/HERest.tex,
+	  HTKBook/HTKRef/HHEd.tex, HTKBook/HTKRef/HInit.tex,
+	  HTKBook/HTKRef/HLEd.tex, HTKBook/HTKRef/HLMCopy.tex,
+	  HTKBook/HTKRef/HLRescore.tex, HTKBook/HTKRef/HLStats.tex,
+	  HTKBook/HTKRef/HList.tex, HTKBook/HTKRef/HMMIRest.tex,
+	  HTKBook/HTKRef/HParse.tex, HTKBook/HTKRef/HQuant.tex,
+	  HTKBook/HTKRef/HRest.tex, HTKBook/HTKRef/HResults.tex,
+	  HTKBook/HTKRef/HSGen.tex, HTKBook/HTKRef/HSLab.tex,
+	  HTKBook/HTKRef/HSmooth.tex, HTKBook/HTKRef/HVite.tex,
+	  HTKBook/HTKRef/LAdapt.tex, HTKBook/HTKRef/LBuild.tex,
+	  HTKBook/HTKRef/LFoF.tex, HTKBook/HTKRef/LGCopy.tex,
+	  HTKBook/HTKRef/LGList.tex, HTKBook/HTKRef/LGPrep.tex,
+	  HTKBook/HTKRef/LLink.tex, HTKBook/HTKRef/LMerge.tex,
+	  HTKBook/HTKRef/LNewMap.tex, HTKBook/HTKRef/LNorm.tex,
+	  HTKBook/HTKRef/LPlex.tex, HTKBook/HTKRef/LSubset.tex,
+	  HTKBook/HTKRef/tools.tex, HTKBook/HTKXFigs/ClassLM.doc,
+	  HTKBook/HTKXFigs/HLMoperation.doc, HTKBook/HTKXFigs/LTool.doc,
+	  HTKBook/HTKXFigs/Tool.labs.fig, HTKBook/HTKXFigs/Tool.model.fig,
+	  HTKBook/HTKXFigs/Tool.netdict.fig,
+	  HTKBook/HTKXFigs/Tool.shell.fig, HTKBook/HTKXFigs/Tool.spio.fig,
+	  HTKBook/HTKXFigs/WordLM.doc, HTKBook/HTKXFigs/cover.fig,
+	  HTKBook/HTKXFigs/headapt.fig, HTKBook/HTKXFigs/headaptrdp.fig,
+	  HTKBook/HTKXFigs/softarch-big.fig, HTKBook/HTKXFigs/softarch.fig,
+	  HTKBook/HTKXFigs/step10.fig, HTKBook/HTKXFigs/sysoview.fig,
+	  HTKBook/HTKXFigs/vtlnpiecewise.fig: Initial revision
+
