@@ -1,5 +1,5 @@
-ArimaTTS - Tamil Speech Synthesizer by Indian Robotics (Powered by IIT Madras - Indic TTS Project)
-==================================================================================================
+ArimaTTS - Tamil Speech Synthesizer by Indian Robotics
+======================================================
 
 Minimum System Requirements :
 =============================
