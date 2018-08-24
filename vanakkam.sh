@@ -18,6 +18,6 @@
 # Please post your feedbacks on facebook, It really means so much for us!
 #
 
-
+cd $ARIMATTS_PATH
 cd tamil
 output=$(scripts/complete "வணக்கம்" linux)
